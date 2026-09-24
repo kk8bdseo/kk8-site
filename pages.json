@@ -7,13 +7,14 @@
       "pageClass": "home",
       "priority": "1.0",
       "changefreq": "daily",
-      "primaryKeyword": "kk8 bangladesh",
+      "primaryKeyword": "kk8",
       "secondary": [
-        "kk8",
+        "kk8 bet",
+        "kk8 bd",
         "kk8 casino",
-        "kk8 official site"
+        "kk8.com"
       ],
-      "title": "KK8 Bangladesh — অফিসিয়াল KK8 ক্যাসিনো ও স্পোর্টস সাইট",
+      "title": "KK8 — অফিসিয়াল অনলাইন ক্যাসিনো ও বেটিং সাইট | Bangladesh",
       "h1": "KK8 Bangladesh — অফিসিয়াল অনলাইন ক্যাসিনো ও স্পোর্টস বেটিং",
       "meta": "বাংলাদেশের জন্য অফিসিয়াল KK8 ব্র্যান্ড সাইট। স্লট, লাইভ ক্যাসিনো, স্পোর্টস ও লটারি — কুরাসাও লাইসেন্সপ্রাপ্ত। বিকাশ, নগদ ও রকেট সাপোর্ট। এখনই রেজিস্টার করুন।",
       "schema": [
@@ -42,18 +43,47 @@
           "q": "ভুয়া KK8 সাইট কীভাবে চিনব?",
           "a": "ডোমেইন নাম অক্ষরে অক্ষরে মিলিয়ে দেখুন, ফুটারে লাইসেন্স নম্বর #365/JAZ আছে কিনা যাচাই করুন, এবং সোশ্যাল মিডিয়ার মেসেজে আসা লিংক দিয়ে লগইন করা এড়িয়ে চলুন।"
         }
-      ]
+      ],
+      "bdVolume": 5100,
+      "bdDifficulty": 5,
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+    },
+    {
+      "slug": "sports-betting",
+      "template": "product",
+      "tier": 1,
+      "pageClass": "support",
+      "priority": "0.9",
+      "changefreq": "weekly",
+      "primaryKeyword": "kk8 bet",
+      "secondary": [
+        "kk8 bet register",
+        "kk8 bet app download"
+      ],
+      "title": "KK8 Bet — স্পোর্টস ও ক্রিকেট বেটিং | KK8 Bangladesh",
+      "h1": "KK8 Bet — বাংলাদেশ থেকে স্পোর্টস ও ক্রিকেট বেটিং",
+      "meta": "KK8 bet প্ল্যাটফর্মে ক্রিকেট, ফুটবল ও আন্তর্জাতিক লিগে বেট করুন। বাংলাদেশ প্লেয়ারদের জন্য অ্যাকাউন্ট, মার্কেট ও বেটিং গাইড।",
+      "schema": [
+        "Organization",
+        "BreadcrumbList"
+      ],
+      "bdVolume": 250,
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
     },
     {
       "slug": "login",
       "template": "action",
       "tier": 1,
       "pageClass": "tier1",
-      "priority": "0.9",
+      "priority": "0.8",
       "changefreq": "weekly",
       "primaryKeyword": "kk8 login",
       "secondary": [
+        "kk8 bet login",
         "kk8 log in",
+        "kk8 login app",
+        "kk8 login password",
+        "kk8 casino login",
         "kk8 bd login"
       ],
       "title": "KK8 লগইন — অফিসিয়াল KK8 Bangladesh লগইন পেজ",
@@ -81,159 +111,26 @@
           "q": "ভুল সাইটে লগইন করে ফেললে?",
           "a": "অবিলম্বে আসল প্ল্যাটফর্মে গিয়ে পাসওয়ার্ড বদলান। ওই পাসওয়ার্ড অন্য কোনো সাইটে ব্যবহার করে থাকলে সেগুলোও পরিবর্তন করুন এবং অ্যাকাউন্টের লেনদেন ইতিহাস দেখে নিন।"
         }
-      ]
-    },
-    {
-      "slug": "register",
-      "template": "action",
-      "tier": 1,
-      "pageClass": "tier1",
-      "priority": "0.9",
-      "changefreq": "weekly",
-      "primaryKeyword": "kk8 register",
-      "secondary": [
-        "kk8 registration",
-        "kk8 sign up bd"
       ],
-      "title": "KK8 রেজিস্টার — নতুন অ্যাকাউন্ট খুলুন | KK8 Bangladesh",
-      "h1": "KK8 রেজিস্টার — বাংলাদেশ থেকে অ্যাকাউন্ট খোলার পূর্ণ গাইড",
-      "meta": "KK8 register করুন কয়েক মিনিটে। বাংলাদেশ থেকে অ্যাকাউন্ট খোলার ধাপে ধাপে গাইড, প্রয়োজনীয় তথ্য ও নিরাপত্তা টিপস।",
-      "schema": [
-        "Organization",
-        "BreadcrumbList",
-        "FAQPage"
-      ],
-      "faq": [
-        {
-          "q": "রেজিস্ট্রেশনে কত সময় লাগে?",
-          "a": "মূল ফর্ম পূরণ কয়েক মিনিটের কাজ। ভেরিফিকেশনে বাড়তি সময় লাগতে পারে, তাই প্রথম ডিপোজিটের আগেই এটি শেষ করে রাখা ভালো।"
-        },
-        {
-          "q": "একজন কি একাধিক অ্যাকাউন্ট খুলতে পারেন?",
-          "a": "না। এক ব্যক্তি এক অ্যাকাউন্ট — এটি প্রায় সব লাইসেন্সপ্রাপ্ত অপারেটরের মানসম্মত নিয়ম। একাধিক অ্যাকাউন্ট শনাক্ত হলে সেগুলো বন্ধ করা হয় এবং বোনাস বাতিল হতে পারে।"
-        },
-        {
-          "q": "পরিবারের কারও মোবাইল ওয়ালেট ব্যবহার করা যাবে?",
-          "a": "না। অ্যাকাউন্টের নাম ও ওয়ালেটের নাম এক হতে হবে। অন্য কারও ওয়ালেট ব্যবহার করলে উইথড্র অনুমোদিত হয় না — এটি নতুন প্লেয়ারদের সবচেয়ে সাধারণ ও সবচেয়ে ব্যয়বহুল ভুল।"
-        },
-        {
-          "q": "রেজিস্ট্রেশনের সময় বোনাস নেওয়া কি বাধ্যতামূলক?",
-          "a": "না, বোনাস নেওয়া ঐচ্ছিক। বোনাস না নিলে টার্নওভার শর্ত থাকে না, ফলে জমা দেওয়া টাকা যেকোনো সময় তোলা যায়।"
-        }
-      ]
-    },
-    {
-      "slug": "casino-slots",
-      "template": "product",
-      "tier": 1,
-      "pageClass": "tier1",
-      "priority": "0.9",
-      "changefreq": "weekly",
-      "primaryKeyword": "kk8 casino",
-      "secondary": [
-        "kk8 slot",
-        "kk8 slots bangladesh"
-      ],
-      "title": "KK8 ক্যাসিনো ও স্লট গেম — Pragmatic Play, JDB | Bangladesh",
-      "h1": "KK8 ক্যাসিনো ও স্লট গেম — বাংলাদেশ প্লেয়ারদের জন্য",
-      "meta": "KK8 casino-এ Pragmatic Play, Lucky365, JDB ও Monkey King-এর স্লট গেম খেলুন। বাংলাদেশ থেকে অ্যাক্সেস, প্রোভাইডার তালিকা ও গেম ক্যাটাগরি।",
-      "schema": [
-        "Organization",
-        "BreadcrumbList",
-        "FAQPage"
-      ],
-      "faq": [
-        {
-          "q": "গেমের ফলাফল কি সত্যিই এলোমেলো?",
-          "a": "লাইসেন্সপ্রাপ্ত প্ল্যাটফর্মে গেমের ফলাফল র‍্যান্ডম নম্বর জেনারেটরের মাধ্যমে নির্ধারিত হয় এবং স্বাধীন ল্যাব সেটি পরীক্ষা করে। KK8-এর প্ল্যাটফর্মে iTech Labs ও BMM Testlabs-এর সার্টিফিকেশন চিহ্ন প্রদর্শিত হয়।"
-        },
-        {
-          "q": "ডেমো মোডে খেলে কি টাকা জেতা যায়?",
-          "a": "না। ডেমো মোড শুধু গেম বোঝার জন্য — সেখানে ভার্চুয়াল ক্রেডিট ব্যবহার হয়, তাই জয় বা ক্ষতি কোনোটিই বাস্তব নয়।"
-        },
-        {
-          "q": "কোন গেম সবচেয়ে বেশি জেতায়?",
-          "a": "এমন কোনো গেম নেই যা নিশ্চিতভাবে জেতায়, এবং যে কেউ তেমন দাবি করলে সেটি বিশ্বাস করবেন না। প্রতিটি রাউন্ড স্বাধীনভাবে নির্ধারিত হয়; RTP ও ভোলাটিলিটি দীর্ঘমেয়াদি বৈশিষ্ট্য, কোনো ভবিষ্যদ্বাণী নয়।"
-        },
-        {
-          "q": "মোবাইলে কি সব গেম চলে?",
-          "a": "আধুনিক স্লট ও লাইভ গেম মোবাইল ব্রাউজার ও অ্যাপ — দুটিতেই চলে। লাইভ টেবিলের জন্য স্থিতিশীল সংযোগ দরকার, তাই ওয়াই-ফাই ব্যবহার করা ভালো।"
-        }
-      ]
-    },
-    {
-      "slug": "live-casino",
-      "template": "product",
-      "tier": 2,
-      "pageClass": "support",
-      "priority": "0.8",
-      "changefreq": "weekly",
-      "primaryKeyword": "kk8 live casino",
-      "secondary": [
-        "kk8 baccarat",
-        "kk8 live dealer"
-      ],
-      "title": "KK8 লাইভ ক্যাসিনো — লাইভ ডিলার গেম | KK8 Bangladesh",
-      "h1": "KK8 লাইভ ক্যাসিনো — বাংলাদেশ থেকে লাইভ ডিলার টেবিল",
-      "meta": "KK8 লাইভ ক্যাসিনোতে ব্যাকারাট, রুলেট ও ব্ল্যাকজ্যাক খেলুন রিয়েল ডিলারের সাথে। AE Sexy টেবিল, বাংলাদেশ প্লেয়ারদের জন্য পূর্ণ গাইড।",
-      "schema": [
-        "Organization",
-        "BreadcrumbList"
-      ]
-    },
-    {
-      "slug": "sports-betting",
-      "template": "product",
-      "tier": 2,
-      "pageClass": "support",
-      "priority": "0.8",
-      "changefreq": "weekly",
-      "primaryKeyword": "kk8 sports betting",
-      "secondary": [
-        "kk8 cricket betting",
-        "kk8 sportsbook bd"
-      ],
-      "title": "KK8 স্পোর্টস বেটিং — ক্রিকেট ও ফুটবল | KK8 Bangladesh",
-      "h1": "KK8 স্পোর্টস বেটিং — ক্রিকেট, ফুটবল ও আন্তর্জাতিক লিগ",
-      "meta": "KK8 স্পোর্টসবুকে ক্রিকেট, ফুটবল, EPL ও FIFA ইভেন্টে বেট করুন। বাংলাদেশ প্লেয়ারদের জন্য মার্কেট, অডস ও বেটিং গাইড।",
-      "schema": [
-        "Organization",
-        "BreadcrumbList"
-      ]
-    },
-    {
-      "slug": "promotions",
-      "template": "promo",
-      "tier": 2,
-      "pageClass": "support",
-      "priority": "0.8",
-      "changefreq": "daily",
-      "primaryKeyword": "kk8 bonus",
-      "secondary": [
-        "kk8 welcome bonus",
-        "kk8 promotion bd"
-      ],
-      "title": "KK8 বোনাস ও প্রোমোশন — বাংলাদেশ | KK8 Bangladesh",
-      "h1": "KK8 বোনাস ও প্রোমোশন — বাংলাদেশ প্লেয়ারদের জন্য",
-      "meta": "KK8-এর ওয়েলকাম বোনাস, রিলোড বোনাস ও রিবেট অফার সম্পর্কে জানুন। বাংলাদেশ প্লেয়ারদের জন্য শর্তাবলি ও দাবি করার পদ্ধতি।",
-      "schema": [
-        "Organization",
-        "BreadcrumbList",
-        "FAQPage"
-      ]
+      "bdVolume": 80,
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
     },
     {
       "slug": "app-download",
       "template": "action",
       "tier": 1,
       "pageClass": "tier1",
-      "priority": "0.9",
+      "priority": "0.8",
       "changefreq": "weekly",
       "primaryKeyword": "kk8 app",
       "secondary": [
         "kk8 apk",
-        "kk8 download",
-        "kk8 app download bd"
+        "kk8 app download apk",
+        "kk8 bet app",
+        "kk8 download apk",
+        "kk8 app apk",
+        "kk8 apk download latest version",
+        "kk8 download apk ios"
       ],
       "title": "KK8 অ্যাপ ডাউনলোড — APK ও iOS | KK8 Bangladesh",
       "h1": "KK8 অ্যাপ ডাউনলোড — Android APK ও iOS গাইড",
@@ -260,29 +157,52 @@
           "q": "APK ইনস্টল করা কি নিরাপদ?",
           "a": "উৎস অফিসিয়াল হলে নিরাপদ। ঝুঁকিটি APK ফর্ম্যাটে নয়, উৎসে — তৃতীয় পক্ষের সাইট থেকে নেওয়া ফাইলে পরিবর্তিত কোড থাকতে পারে। ইনস্টলের পর \"অজানা উৎস\" অনুমতি বন্ধ করে দেওয়াই ভালো অভ্যাস।"
         }
-      ]
+      ],
+      "bdVolume": 60,
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
     },
     {
-      "slug": "deposit-withdrawal",
-      "template": "payment",
+      "slug": "casino-slots",
+      "template": "product",
       "tier": 2,
-      "pageClass": "support",
-      "priority": "0.85",
+      "pageClass": "tier1",
+      "priority": "0.8",
       "changefreq": "weekly",
-      "primaryKeyword": "kk8 deposit",
+      "primaryKeyword": "kk8 casino",
       "secondary": [
-        "kk8 withdrawal",
-        "kk8 bkash",
-        "kk8 nagad"
+        "kk8 game",
+        "kk8 live",
+        "kk8 slot",
+        "kk8 online casino"
       ],
-      "title": "KK8 ডিপোজিট ও উইথড্র — বিকাশ, নগদ, রকেট | Bangladesh",
-      "h1": "KK8 ডিপোজিট ও উইথড্র — বিকাশ, নগদ ও রকেট",
-      "meta": "KK8 deposit ও withdrawal পদ্ধতি বাংলাদেশে — বিকাশ, নগদ ও রকেট। ধাপে ধাপে গাইড, নিরাপত্তা ও সাধারণ সমস্যার সমাধান।",
+      "title": "KK8 ক্যাসিনো ও স্লট গেম — Pragmatic Play, JDB | Bangladesh",
+      "h1": "KK8 ক্যাসিনো ও স্লট গেম — বাংলাদেশ প্লেয়ারদের জন্য",
+      "meta": "KK8 casino-এ Pragmatic Play, Lucky365, JDB ও Monkey King-এর স্লট গেম খেলুন। বাংলাদেশ থেকে অ্যাক্সেস, প্রোভাইডার তালিকা ও গেম ক্যাটাগরি।",
       "schema": [
         "Organization",
         "BreadcrumbList",
         "FAQPage"
-      ]
+      ],
+      "faq": [
+        {
+          "q": "গেমের ফলাফল কি সত্যিই এলোমেলো?",
+          "a": "লাইসেন্সপ্রাপ্ত প্ল্যাটফর্মে গেমের ফলাফল র‍্যান্ডম নম্বর জেনারেটরের মাধ্যমে নির্ধারিত হয় এবং স্বাধীন ল্যাব সেটি পরীক্ষা করে। KK8-এর প্ল্যাটফর্মে iTech Labs ও BMM Testlabs-এর সার্টিফিকেশন চিহ্ন প্রদর্শিত হয়।"
+        },
+        {
+          "q": "ডেমো মোডে খেলে কি টাকা জেতা যায়?",
+          "a": "না। ডেমো মোড শুধু গেম বোঝার জন্য — সেখানে ভার্চুয়াল ক্রেডিট ব্যবহার হয়, তাই জয় বা ক্ষতি কোনোটিই বাস্তব নয়।"
+        },
+        {
+          "q": "কোন গেম সবচেয়ে বেশি জেতায়?",
+          "a": "এমন কোনো গেম নেই যা নিশ্চিতভাবে জেতায়, এবং যে কেউ তেমন দাবি করলে সেটি বিশ্বাস করবেন না। প্রতিটি রাউন্ড স্বাধীনভাবে নির্ধারিত হয়; RTP ও ভোলাটিলিটি দীর্ঘমেয়াদি বৈশিষ্ট্য, কোনো ভবিষ্যদ্বাণী নয়।"
+        },
+        {
+          "q": "মোবাইলে কি সব গেম চলে?",
+          "a": "আধুনিক স্লট ও লাইভ গেম মোবাইল ব্রাউজার ও অ্যাপ — দুটিতেই চলে। লাইভ টেবিলের জন্য স্থিতিশীল সংযোগ দরকার, তাই ওয়াই-ফাই ব্যবহার করা ভালো।"
+        }
+      ],
+      "bdVolume": 30,
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
     },
     {
       "slug": "about",
@@ -291,10 +211,10 @@
       "pageClass": "support",
       "priority": "0.6",
       "changefreq": "monthly",
-      "primaryKeyword": "about kk8",
+      "primaryKeyword": "kk8 info",
       "secondary": [
-        "kk8 company",
-        "kk8 licence"
+        "what is kk8",
+        "kk8 official"
       ],
       "title": "KK8 সম্পর্কে — ব্র্যান্ড, লাইসেন্স ও প্ল্যাটফর্ম | Bangladesh",
       "h1": "KK8 সম্পর্কে — ব্র্যান্ড, লাইসেন্স ও প্ল্যাটফর্ম",
@@ -302,39 +222,20 @@
       "schema": [
         "Organization",
         "BreadcrumbList"
-      ]
-    },
-    {
-      "slug": "why-choose-kk8",
-      "template": "content",
-      "tier": 2,
-      "pageClass": "support",
-      "priority": "0.75",
-      "changefreq": "monthly",
-      "primaryKeyword": "kk8 official site",
-      "secondary": [
-        "kk8 safe",
-        "kk8 trusted"
       ],
-      "title": "কেন KK8 বেছে নেবেন — ট্রাস্ট ও নিরাপত্তা | KK8 Bangladesh",
-      "h1": "কেন KK8 বেছে নেবেন — ট্রাস্ট, নিরাপত্তা ও অফিসিয়াল সাইট",
-      "meta": "KK8-এর কুরাসাও লাইসেন্স, iTech Labs ও BMM অডিট, এনক্রিপশন এবং অফিসিয়াল সাইট চেনার উপায় — বাংলাদেশ প্লেয়ারদের জন্য।",
-      "schema": [
-        "Organization",
-        "BreadcrumbList",
-        "FAQPage"
-      ]
+      "bdVolume": 20,
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
     },
     {
       "slug": "faq",
       "template": "faq",
       "tier": 3,
       "pageClass": "support",
-      "priority": "0.7",
+      "priority": "0.6",
       "changefreq": "monthly",
-      "primaryKeyword": "kk8 faq",
+      "primaryKeyword": "kk8 info",
       "secondary": [
-        "kk8 questions bd"
+        "kk8 faq"
       ],
       "title": "KK8 FAQ — সাধারণ প্রশ্নের উত্তর | KK8 Bangladesh",
       "h1": "KK8 FAQ — বাংলাদেশ প্লেয়ারদের সাধারণ প্রশ্ন",
@@ -343,19 +244,148 @@
         "Organization",
         "BreadcrumbList",
         "FAQPage"
-      ]
+      ],
+      "bdVolume": 20,
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+    },
+    {
+      "slug": "live-casino",
+      "template": "product",
+      "tier": 3,
+      "pageClass": "support",
+      "priority": "0.6",
+      "changefreq": "weekly",
+      "primaryKeyword": "kk8 live",
+      "secondary": [
+        "kk8 live casino"
+      ],
+      "title": "KK8 লাইভ ক্যাসিনো — লাইভ ডিলার গেম | KK8 Bangladesh",
+      "h1": "KK8 লাইভ ক্যাসিনো — বাংলাদেশ থেকে লাইভ ডিলার টেবিল",
+      "meta": "KK8 লাইভ ক্যাসিনোতে ব্যাকারাট, রুলেট ও ব্ল্যাকজ্যাক খেলুন রিয়েল ডিলারের সাথে। AE Sexy টেবিল, বাংলাদেশ প্লেয়ারদের জন্য পূর্ণ গাইড।",
+      "schema": [
+        "Organization",
+        "BreadcrumbList"
+      ],
+      "bdVolume": 10,
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+    },
+    {
+      "slug": "promotions",
+      "template": "promo",
+      "tier": 3,
+      "pageClass": "support",
+      "priority": "0.6",
+      "changefreq": "daily",
+      "primaryKeyword": "kk8 free credit",
+      "secondary": [
+        "kk8 bonus",
+        "kk8 promo code"
+      ],
+      "title": "KK8 বোনাস ও প্রোমোশন — বাংলাদেশ | KK8 Bangladesh",
+      "h1": "KK8 বোনাস ও প্রোমোশন — বাংলাদেশ প্লেয়ারদের জন্য",
+      "meta": "KK8-এর ওয়েলকাম বোনাস, রিলোড বোনাস ও রিবেট অফার সম্পর্কে জানুন। বাংলাদেশ প্লেয়ারদের জন্য শর্তাবলি ও দাবি করার পদ্ধতি।",
+      "schema": [
+        "Organization",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "bdVolume": 10,
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+    },
+    {
+      "slug": "register",
+      "template": "action",
+      "tier": 3,
+      "pageClass": "tier1",
+      "priority": "0.4",
+      "changefreq": "weekly",
+      "primaryKeyword": "kk8 register",
+      "secondary": [
+        "kk8 bet register"
+      ],
+      "title": "KK8 রেজিস্টার — নতুন অ্যাকাউন্ট খুলুন | KK8 Bangladesh",
+      "h1": "KK8 রেজিস্টার — বাংলাদেশ থেকে অ্যাকাউন্ট খোলার পূর্ণ গাইড",
+      "meta": "KK8 register করুন কয়েক মিনিটে। বাংলাদেশ থেকে অ্যাকাউন্ট খোলার ধাপে ধাপে গাইড, প্রয়োজনীয় তথ্য ও নিরাপত্তা টিপস।",
+      "schema": [
+        "Organization",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faq": [
+        {
+          "q": "রেজিস্ট্রেশনে কত সময় লাগে?",
+          "a": "মূল ফর্ম পূরণ কয়েক মিনিটের কাজ। ভেরিফিকেশনে বাড়তি সময় লাগতে পারে, তাই প্রথম ডিপোজিটের আগেই এটি শেষ করে রাখা ভালো।"
+        },
+        {
+          "q": "একজন কি একাধিক অ্যাকাউন্ট খুলতে পারেন?",
+          "a": "না। এক ব্যক্তি এক অ্যাকাউন্ট — এটি প্রায় সব লাইসেন্সপ্রাপ্ত অপারেটরের মানসম্মত নিয়ম। একাধিক অ্যাকাউন্ট শনাক্ত হলে সেগুলো বন্ধ করা হয় এবং বোনাস বাতিল হতে পারে।"
+        },
+        {
+          "q": "পরিবারের কারও মোবাইল ওয়ালেট ব্যবহার করা যাবে?",
+          "a": "না। অ্যাকাউন্টের নাম ও ওয়ালেটের নাম এক হতে হবে। অন্য কারও ওয়ালেট ব্যবহার করলে উইথড্র অনুমোদিত হয় না — এটি নতুন প্লেয়ারদের সবচেয়ে সাধারণ ও সবচেয়ে ব্যয়বহুল ভুল।"
+        },
+        {
+          "q": "রেজিস্ট্রেশনের সময় বোনাস নেওয়া কি বাধ্যতামূলক?",
+          "a": "না, বোনাস নেওয়া ঐচ্ছিক। বোনাস না নিলে টার্নওভার শর্ত থাকে না, ফলে জমা দেওয়া টাকা যেকোনো সময় তোলা যায়।"
+        }
+      ],
+      "bdVolume": 0,
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+    },
+    {
+      "slug": "deposit-withdrawal",
+      "template": "payment",
+      "tier": 3,
+      "pageClass": "support",
+      "priority": "0.4",
+      "changefreq": "weekly",
+      "primaryKeyword": "kk8 deposit",
+      "secondary": [
+        "kk8 withdrawal"
+      ],
+      "title": "KK8 ডিপোজিট ও উইথড্র — বিকাশ, নগদ, রকেট | Bangladesh",
+      "h1": "KK8 ডিপোজিট ও উইথড্র — বিকাশ, নগদ ও রকেট",
+      "meta": "KK8 deposit ও withdrawal পদ্ধতি বাংলাদেশে — বিকাশ, নগদ ও রকেট। ধাপে ধাপে গাইড, নিরাপত্তা ও সাধারণ সমস্যার সমাধান।",
+      "schema": [
+        "Organization",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "bdVolume": 0,
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+    },
+    {
+      "slug": "why-choose-kk8",
+      "template": "content",
+      "tier": 3,
+      "pageClass": "support",
+      "priority": "0.4",
+      "changefreq": "monthly",
+      "primaryKeyword": "kk8 official",
+      "secondary": [
+        "kk8 official site"
+      ],
+      "title": "কেন KK8 বেছে নেবেন — ট্রাস্ট ও নিরাপত্তা | KK8 Bangladesh",
+      "h1": "কেন KK8 বেছে নেবেন — ট্রাস্ট, নিরাপত্তা ও অফিসিয়াল সাইট",
+      "meta": "KK8-এর কুরাসাও লাইসেন্স, iTech Labs ও BMM অডিট, এনক্রিপশন এবং অফিসিয়াল সাইট চেনার উপায় — বাংলাদেশ প্লেয়ারদের জন্য।",
+      "schema": [
+        "Organization",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "bdVolume": 0,
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
     },
     {
       "slug": "contact",
       "template": "content",
       "tier": 3,
       "pageClass": "support",
-      "priority": "0.6",
+      "priority": "0.4",
       "changefreq": "monthly",
       "primaryKeyword": "kk8 customer service",
       "secondary": [
-        "kk8 support",
-        "kk8 contact bd"
+        "kk8 support"
       ],
       "title": "KK8 কন্টাক্ট ও সাপোর্ট — ২৪/৭ হেল্প | KK8 Bangladesh",
       "h1": "KK8 কন্টাক্ট ও কাস্টমার সাপোর্ট",
@@ -363,26 +393,28 @@
       "schema": [
         "Organization",
         "BreadcrumbList"
-      ]
+      ],
+      "bdVolume": 0,
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
     },
     {
       "slug": "responsible-gaming",
       "template": "content",
       "tier": 3,
       "pageClass": "legal",
-      "priority": "0.5",
+      "priority": "0.4",
       "changefreq": "yearly",
       "primaryKeyword": "kk8 responsible gaming",
-      "secondary": [
-        "responsible gambling bangladesh"
-      ],
+      "secondary": [],
       "title": "রেসপনসিবল গেমিং — ১৮+ ও সহায়তা | KK8 Bangladesh",
       "h1": "রেসপনসিবল গেমিং — নিরাপদভাবে খেলুন",
       "meta": "দায়িত্বশীল গেমিং নির্দেশিকা, ১৮+ নীতি, সীমা নির্ধারণ এবং বাংলাদেশে সহায়তা — কান পেতে রই হেল্পলাইন +880 9612-119911।",
       "schema": [
         "Organization",
         "BreadcrumbList"
-      ]
+      ],
+      "bdVolume": 0,
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
     },
     {
       "slug": "terms",
@@ -392,28 +424,27 @@
       "priority": "0.4",
       "changefreq": "yearly",
       "primaryKeyword": "kk8 terms",
-      "secondary": [
-        "kk8 terms and conditions"
-      ],
+      "secondary": [],
       "title": "শর্তাবলি — Terms & Conditions | KK8 Bangladesh",
       "h1": "শর্তাবলি — KK8 Bangladesh",
       "meta": "KK8 Bangladesh সাইট ব্যবহারের শর্তাবলি, বয়সসীমা, দায়বদ্ধতা এবং বাহ্যিক লিংক সম্পর্কিত নীতি।",
       "schema": [
         "Organization",
         "BreadcrumbList"
-      ]
+      ],
+      "bdVolume": 0,
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
     },
     {
       "slug": "promotions-hub",
       "template": "hub",
-      "tier": 2,
+      "tier": 3,
       "pageClass": "support",
-      "priority": "0.75",
+      "priority": "0.4",
       "changefreq": "daily",
-      "primaryKeyword": "kk8 promotion bangladesh",
+      "primaryKeyword": "kk8 promo code",
       "secondary": [
-        "kk8 offers",
-        "kk8 rebate"
+        "kk8 free credit"
       ],
       "title": "KK8 প্রোমোশন হাব — সব অফার এক জায়গায় | Bangladesh",
       "h1": "KK8 প্রোমোশন হাব — প্রোডাক্ট অনুযায়ী সব অফার",
@@ -421,7 +452,9 @@
       "schema": [
         "Organization",
         "BreadcrumbList"
-      ]
+      ],
+      "bdVolume": 0,
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
     }
   ]
 }
