@@ -118,11 +118,10 @@
     }
   ],
   "social": {
-    "facebook": "https://www.facebook.com/",
-    "instagram": "https://www.instagram.com/",
-    "telegram": "https://t.me/"
+    "instagram": "https://www.instagram.com/officialkkeight_/",
+    "facebook": "https://www.facebook.com/profile.php?id=61590222761776",
+    "telegram": "https://t.me/kk8officialchannel"
   },
-  "socialNote": "Placeholder roots — KK8 channel handles to be confirmed by client before publish.",
   "responsibleGambling": {
     "org": "Kaan Pete Roi",
     "orgBn": "কান পেতে রই",
@@ -143,5 +142,56 @@
   "moneySiteNote": "Malaysia money site — client-directed interim target, 2026-09-22. Swap to the Bangladesh URL here when KK8 finalises it; no page needs editing.",
   "sisterSite": "https://kk8.news",
   "sisterSiteName": "KK8 রিভিউ ও ট্রাস্ট হাব",
-  "ogImage": "/assets/img/og-image.png"
+  "ogImage": "/assets/img/og-image.png",
+  "featuredGames": [
+    {
+      "name": "Gates of Olympus Super Scatter",
+      "provider": "Pragmatic Play"
+    },
+    {
+      "name": "Sugar Rush 1000",
+      "provider": "Pragmatic Play"
+    },
+    {
+      "name": "Fury of Anubis",
+      "provider": "Pragmatic Play"
+    },
+    {
+      "name": "Starlight Princess 1000",
+      "provider": "Lucky365"
+    },
+    {
+      "name": "Fortune Tiger",
+      "provider": "Lucky365"
+    },
+    {
+      "name": "Treasures of Aztec",
+      "provider": "Lucky365"
+    },
+    {
+      "name": "Wild Bandito",
+      "provider": "Lucky365"
+    },
+    {
+      "name": "Monkey King3",
+      "provider": "Lucky365"
+    },
+    {
+      "name": "Wild Bounty Showdown",
+      "provider": "Lucky365"
+    },
+    {
+      "name": "Mahjong Ways 2",
+      "provider": "Microslot"
+    },
+    {
+      "name": "Money Pot",
+      "provider": "Microslot"
+    },
+    {
+      "name": "Sugar Teddy x1000",
+      "provider": "BNG"
+    }
+  ],
+  "featuredGamesSource": "Observed in the 'Hot Games' rail on kk8official.com, verified 2026-09-24. Titles and providers only — no thumbnails are copied or hotlinked."
 }
