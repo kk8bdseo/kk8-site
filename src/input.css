@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* KK8 Bangladesh — SEO site (commercial).
+   Component layer for the microsite furniture. Colours come from the Tailwind
+   brand tokens only (CLAUDE.md §3); nothing is hard-coded here. */
+
+@layer base {
+  /* Bengali body copy: never brand blue (§3) — blue is for headings and links. */
+  body { text-wrap: pretty; }
+  h1, h2, h3 { letter-spacing: -0.01em; line-height: 1.25; }
+  :where(a):focus-visible, :where(button):focus-visible {
+    outline: 2px solid theme('colors.brand-blue');
+    outline-offset: 2px;
+  }
+  /* Reserve image space so late-loading art cannot shift layout (CLS). */
+  img { max-width: 100%; height: auto; }
+}
+
+@layer components {
+  .hero {
+    @apply relative overflow-hidden bg-brand-navy text-white;
+  }
+  .hero::after {
+    content: '';
+    @apply pointer-events-none absolute -right-32 -top-24 h-[420px] w-[420px] rounded-full;
+    background: radial-gradient(circle, rgba(21, 86, 255, 0.35), transparent 62%);
+  }
+  .btn-primary {
+    @apply inline-block rounded-btn bg-brand-blue px-6 py-3 text-center text-base font-bold text-white transition hover:bg-brand-bright;
+  }
+  .btn-secondary {
+    @apply inline-block rounded-pill border border-brand-blue bg-white px-6 py-3 text-center text-base font-bold text-brand-blue transition hover:bg-brand-tint;
+  }
+  .card {
+    @apply rounded-base border border-brand-hair bg-white p-6;
+  }
+  .panel {
+    @apply rounded-base bg-brand-tint p-6;
+  }
+  .section {
+    @apply mx-auto max-w-6xl px-4 py-14;
+  }
+  .eyebrow {
+    @apply text-[11px] font-bold uppercase tracking-[0.22em] text-brand-blue;
+  }
+  .lede {
+    @apply text-lg leading-bn text-brand-slate;
+  }
+  .prose-bn p { @apply mb-4 leading-bn text-brand-slate; }
+  .prose-bn h2 { @apply mb-3 mt-10 text-2xl font-extrabold text-brand-navy; }
+  .prose-bn h3 { @apply mb-2 mt-6 text-lg font-bold text-brand-navy; }
+  .prose-bn ul { @apply mb-4 space-y-2; }
+  .prose-bn li { @apply leading-bn text-brand-slate; }
+  .prose-bn strong { @apply font-bold text-brand-navy; }
+  .prose-bn a { @apply font-semibold text-brand-blue underline; }
+
+  .faq-q {
+    @apply flex w-full items-center justify-between gap-4 border-b border-brand-hair py-4 text-left text-base font-bold text-brand-navy;
+  }
+  .faq-q[aria-expanded='true'] { @apply text-brand-blue; }
+  .faq-a { @apply pb-4 pt-1 leading-bn text-brand-slate; }
+  .data-table { @apply w-full border-collapse text-sm; }
+  .data-table th {
+    @apply border-b-2 border-brand-hair px-3 py-2 text-left text-[11px] font-bold uppercase tracking-widest text-brand-slate;
+  }
+  .data-table td { @apply border-b border-brand-hair px-3 py-3 align-top leading-bn; }
+}

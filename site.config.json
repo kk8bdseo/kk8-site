@@ -1,0 +1,147 @@
+{
+  "lang": "bn",
+  "hreflang": "bn-BD",
+  "locale": "bn_BD",
+  "themeColor": "#0047ff",
+  "twitterSite": "@KK8Casino",
+  "brand": "KK8",
+  "geo": {
+    "country": "Bangladesh",
+    "countryBn": "বাংলাদেশ",
+    "code": "BD",
+    "currency": "BDT",
+    "currencyBn": "টাকা"
+  },
+  "licence": {
+    "authority": "Curaçao",
+    "authorityBn": "কুরাসাও",
+    "text": "Master License of Gaming Services Provider, N.V.",
+    "number": "#365/JAZ",
+    "verifiedOn": "2026-09-24"
+  },
+  "trustMarks": [
+    "Gaming Curaçao",
+    "PAGCOR",
+    "iTech Labs",
+    "BMM Testlabs",
+    "Iovation",
+    "GameCare",
+    "BeGambleAware"
+  ],
+  "paymentRails": [
+    {
+      "id": "bkash",
+      "name": "bKash",
+      "nameBn": "বিকাশ",
+      "type": "মোবাইল ফিনান্সিয়াল সার্ভিস"
+    },
+    {
+      "id": "nagad",
+      "name": "Nagad",
+      "nameBn": "নগদ",
+      "type": "মোবাইল ফিনান্সিয়াল সার্ভিস"
+    },
+    {
+      "id": "rocket",
+      "name": "Rocket",
+      "nameBn": "রকেট",
+      "type": "মোবাইল ফিনান্সিয়াল সার্ভিস"
+    }
+  ],
+  "paymentRailsVerified": false,
+  "paymentRailsNote": "Client-directed assertion, 2026-09-24. Not verifiable against the live money site — see spec §3.2. Rail names only; no amounts, timings or fees.",
+  "providers": [
+    {
+      "name": "Pragmatic Play",
+      "category": "স্লট"
+    },
+    {
+      "name": "Lucky365",
+      "category": "স্লট"
+    },
+    {
+      "name": "Monkey King",
+      "category": "স্লট"
+    },
+    {
+      "name": "JDB",
+      "category": "স্লট"
+    },
+    {
+      "name": "King Midas",
+      "category": "স্লট"
+    },
+    {
+      "name": "Microslot",
+      "category": "স্লট"
+    },
+    {
+      "name": "BNG",
+      "category": "স্লট"
+    },
+    {
+      "name": "AE Sexy",
+      "category": "লাইভ ক্যাসিনো"
+    }
+  ],
+  "providersSource": "Observed on kk8official.com homepage game cards and promotion names, verified 2026-09-24. Narrower than CLAUDE.md §8 by design — only what was actually seen is asserted.",
+  "productCategories": [
+    {
+      "id": "slots",
+      "name": "Slots",
+      "nameBn": "স্লট"
+    },
+    {
+      "id": "live",
+      "name": "Live Casino",
+      "nameBn": "লাইভ ক্যাসিনো"
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "nameBn": "স্পোর্টস বেটিং"
+    },
+    {
+      "id": "lottery",
+      "name": "Lottery",
+      "nameBn": "লটারি"
+    },
+    {
+      "id": "racing",
+      "name": "Racing",
+      "nameBn": "রেসিং"
+    },
+    {
+      "id": "minigames",
+      "name": "Mini Games",
+      "nameBn": "মিনি গেমস"
+    }
+  ],
+  "social": {
+    "facebook": "https://www.facebook.com/",
+    "instagram": "https://www.instagram.com/",
+    "telegram": "https://t.me/"
+  },
+  "socialNote": "Placeholder roots — KK8 channel handles to be confirmed by client before publish.",
+  "responsibleGambling": {
+    "org": "Kaan Pete Roi",
+    "orgBn": "কান পেতে রই",
+    "phone": "+880 9612-119911",
+    "descBn": "বাংলাদেশের ইমোশনাল সাপোর্ট ও ক্রাইসিস হেল্পলাইন"
+  },
+  "minAge": 18,
+  "lastVerified": "2026-09-24",
+  "siteKey": "seo",
+  "role": "commercial",
+  "domain": "kk8.site",
+  "baseUrl": "https://kk8.site",
+  "siteName": "KK8 Bangladesh",
+  "siteNameBn": "KK8 বাংলাদেশ",
+  "tagline": "বাংলাদেশের জন্য অফিসিয়াল KK8 ব্র্যান্ড সাইট",
+  "moneySite": "https://kk8official.com/my/",
+  "moneySiteParams": "",
+  "moneySiteNote": "Malaysia money site — client-directed interim target, 2026-09-22. Swap to the Bangladesh URL here when KK8 finalises it; no page needs editing.",
+  "sisterSite": "https://kk8.news",
+  "sisterSiteName": "KK8 রিভিউ ও ট্রাস্ট হাব",
+  "ogImage": "/assets/img/og-image.png"
+}
