@@ -8,4 +8,32 @@
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8.site/"/>
   </url>
+  <url>
+    <loc>https://kk8.site/login.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8.site/login.html"/>
+  </url>
+  <url>
+    <loc>https://kk8.site/register.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8.site/register.html"/>
+  </url>
+  <url>
+    <loc>https://kk8.site/casino-slots.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8.site/casino-slots.html"/>
+  </url>
+  <url>
+    <loc>https://kk8.site/app-download.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8.site/app-download.html"/>
+  </url>
 </urlset>
