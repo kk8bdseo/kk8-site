@@ -87,7 +87,8 @@
           "q": "নতুন হিসেবে কত টাকা দিয়ে শুরু করা উচিত?",
           "a": "এমন পরিমাণ যা হারালে আপনার দৈনন্দিন খরচে কোনো প্রভাব পড়বে না। শুরুতে ছোট বাজিতে কয়েক সপ্তাহ খেলে নিজের সিদ্ধান্তের মান বুঝে নেওয়া সবচেয়ে বাস্তবসম্মত পদ্ধতি।"
         }
-      ]
+      ],
+      "banner": "sports"
     },
     {
       "slug": "login",
@@ -221,7 +222,8 @@
         }
       ],
       "bdVolume": 30,
-      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
+      "banner": "slots"
     },
     {
       "slug": "about",
@@ -349,7 +351,8 @@
         "BreadcrumbList"
       ],
       "bdVolume": 10,
-      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
+      "banner": "live"
     },
     {
       "slug": "promotions",

@@ -107,6 +107,58 @@ function gameGrid() {
   }).join('\n');
 }
 
+/** Today's date on the Bangladesh calendar (Asia/Dhaka, UTC+6). Promo end dates are
+ *  local event dates; comparing them against UTC keeps a lapsed promo up to six hours
+ *  past its end. en-CA formats as YYYY-MM-DD. */
+const todayBD = () => new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Dhaka' }).format(new Date());
+
+/** Hero banners still inside their event window. `expires` is inclusive, so a promo
+ *  with a printed end date drops out of the build the day after — a lapsed promotion
+ *  can never ship, however long the site sits between deploys. */
+function liveHeroBanners() {
+  const today = todayBD();
+  return (cfg.heroBanners || []).filter((b) => !b.expires || b.expires >= today);
+}
+
+/** Homepage carousel. Native scroll-snap does the work — swipe needs no JS at all;
+ *  site.js only adds dots and an autoplay that stops the moment anyone interacts.
+ *  The first surviving slide is the page's LCP element: eager, fetchpriority=high. */
+function heroCarousel() {
+  const today = todayBD();
+  const live = liveHeroBanners();
+  const dropped = (cfg.heroBanners || []).length - live.length;
+  if (dropped) warns.push(`hero carousel: dropped ${dropped} expired banner(s)`);
+  for (const b of live) {
+    if (!b.expires) continue;
+    const days = Math.round((Date.parse(b.expires) - Date.parse(today)) / 864e5);
+    if (days <= 7) warns.push(`hero banner ends in ${days} day(s) (${b.expires}): ${b.src}`);
+  }
+  if (!live.length) return '';
+  const slides = live.map((b, i) => `<li class="w-full shrink-0 snap-start" aria-roledescription="slide" aria-label="${i + 1} / ${live.length}">
+      <a href="${moneyUrl()}" rel="nofollow noopener" target="_blank" class="block">
+        <img src="${b.src}" alt="${esc(b.alt)}" width="${b.w}" height="${b.h}" ${i === 0
+          ? 'fetchpriority="high"' : 'loading="lazy" decoding="async"'}
+             class="block aspect-[12/5] w-full object-cover object-[38%_50%] md:aspect-[125/22]">
+      </a>
+    </li>`).join('\n');
+  const dots = live.length < 2 ? '' : `<div id="heroDots" class="absolute inset-x-0 bottom-3 flex justify-center gap-2">
+    ${live.map((_, i) => `<button type="button" class="hero-dot h-2 w-2 rounded-full bg-white/50 transition" aria-label="ব্যানার ${i + 1}" aria-current="${i === 0}"></button>`).join('')}
+  </div>`;
+  return `<section class="relative bg-brand-navy" aria-roledescription="carousel" aria-label="KK8 প্রোমোশন ও ব্র্যান্ড ব্যানার">
+  <ul id="heroTrack" class="carousel-track flex snap-x snap-mandatory overflow-x-auto">
+    ${slides}
+  </ul>
+  ${dots}
+</section>`;
+}
+
+/** The image a page leads with, so head() can preload it ahead of CSS. */
+function lcpImage(page) {
+  if (page.slug === 'index') return liveHeroBanners()[0]?.src;
+  if (page.banner) return cfg.categoryBanners?.[page.banner]?.src;
+  return null;
+}
+
 function trustMarks() {
   return cfg.trustMarks.map((t) =>
     `<li class="rounded-pill border border-brand-hair px-3 py-1 text-xs font-semibold text-brand-slate">${esc(t)}</li>`
@@ -209,6 +261,7 @@ function head(page) {
   <meta name="twitter:image" content="${cfg.baseUrl}${cfg.ogImage}">
   <link rel="icon" href="/assets/img/favicon-32x32.png" sizes="32x32">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon-180x180.png">
+${lcpImage(page) ? `\n  <link rel="preload" as="image" href="${lcpImage(page)}" fetchpriority="high">` : ''}
   <link rel="stylesheet" href="/assets/css/site.css">`;
 }
 
@@ -232,6 +285,8 @@ for (const page of pages) {
     categoryGrid: categoryGrid(),
     trustMarks: trustMarks(),
     gameGrid: gameGrid(),
+    heroCarousel: page.slug === 'index' ? heroCarousel() : '',
+    banner: page.banner ? cfg.categoryBanners?.[page.banner] : undefined,
     moneyUrl: moneyUrl(),
     year: new Date().getFullYear(),
     bodyClass: `tpl-${page.template}`,

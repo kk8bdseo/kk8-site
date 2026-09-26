@@ -193,5 +193,63 @@
       "provider": "BNG"
     }
   ],
-  "featuredGamesSource": "Observed in the 'Hot Games' rail on kk8official.com, verified 2026-09-24. Titles and providers only — no thumbnails are copied or hotlinked."
+  "featuredGamesSource": "Observed in the 'Hot Games' rail on kk8official.com, verified 2026-09-24. Titles and providers only — no thumbnails are copied or hotlinked.",
+  "heroBanners": [
+    {
+      "src": "/assets/img/banners/hero-f1-2026.webp",
+      "w": 2000,
+      "h": 352,
+      "expires": "2026-09-27",
+      "alt": "KK8 F1 টিকিট প্রোমোশনের ব্যানার — ইভেন্ট ৭ থেকে ২৭ সেপ্টেম্বর ২০২৬"
+    },
+    {
+      "src": "/assets/img/banners/hero-anniversary.webp",
+      "w": 2000,
+      "h": 352,
+      "expires": "2026-09-30",
+      "alt": "KK8 তৃতীয় বর্ষপূর্তি উদযাপনের ব্যানার — ইভেন্ট ১ আগস্ট থেকে ৩০ সেপ্টেম্বর"
+    },
+    {
+      "src": "/assets/img/banners/hero-ambassador-owodog.webp",
+      "w": 2000,
+      "h": 352,
+      "alt": "KK8-এর নতুন ব্র্যান্ড অ্যাম্বাসেডর Owodog-এর ব্যানার"
+    },
+    {
+      "src": "/assets/img/banners/hero-bwf-sponsor.webp",
+      "w": 2000,
+      "h": 352,
+      "alt": "BWF ওয়ার্ল্ড ট্যুর ২০২৫–২০২৬-এ KK8-এর অফিসিয়াল স্পনসরশিপের ব্যানার"
+    },
+    {
+      "src": "/assets/img/banners/hero-tottenham-sponsor.webp",
+      "w": 2000,
+      "h": 352,
+      "alt": "টটেনহাম হটস্পার-এর অফিসিয়াল এশিয়ান স্পনসর হিসেবে KK8-এর ব্যানার"
+    }
+  ],
+  "heroBannersNote": "Client-supplied KK8 creative, 2026-09-27. English copy is baked into these five images; the page's H1 and body carry the Bengali and the SEO signal. Sponsorship and ambassador claims are KK8's own creative and are not repeated as fact in body copy.",
+  "categoryBanners": {
+    "slots": {
+      "src": "/assets/img/banners/cat-slots.jpg",
+      "w": 1100,
+      "h": 517,
+      "alt": "KK8 স্লট গেমের ব্যানার — Zeus, পিনাটা ও জনপ্রিয় স্লট চরিত্র",
+      "taglineBn": "শীর্ষ প্রোভাইডারের স্লট গেম, একটি অ্যাকাউন্টে"
+    },
+    "live": {
+      "src": "/assets/img/banners/cat-live.jpg",
+      "w": 1100,
+      "h": 515,
+      "alt": "KK8 লাইভ ক্যাসিনো ব্যানার — ব্র্যান্ড অ্যাম্বাসেডর Owodog ও কার্ড টেবিল",
+      "taglineBn": "রিয়েল ডিলারের সঙ্গে সরাসরি টেবিল গেম"
+    },
+    "sports": {
+      "src": "/assets/img/banners/cat-sports.jpg",
+      "w": 1100,
+      "h": 515,
+      "alt": "KK8 স্পোর্টস বেটিং ব্যানার — ফুটবল, ব্যাডমিন্টন ও টেবিল টেনিস খেলোয়াড়",
+      "taglineBn": "ফুটবল ও আন্তর্জাতিক খেলায় বেটিং"
+    }
+  }
 }
