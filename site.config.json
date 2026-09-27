@@ -196,20 +196,6 @@
   "featuredGamesSource": "Observed in the 'Hot Games' rail on kk8official.com, verified 2026-09-24. Titles and providers only — no thumbnails are copied or hotlinked.",
   "heroBanners": [
     {
-      "src": "/assets/img/banners/hero-f1-2026.webp",
-      "w": 2000,
-      "h": 352,
-      "expires": "2026-09-27",
-      "alt": "KK8 F1 টিকিট প্রোমোশনের ব্যানার — ইভেন্ট ৭ থেকে ২৭ সেপ্টেম্বর ২০২৬"
-    },
-    {
-      "src": "/assets/img/banners/hero-anniversary.webp",
-      "w": 2000,
-      "h": 352,
-      "expires": "2026-09-30",
-      "alt": "KK8 তৃতীয় বর্ষপূর্তি উদযাপনের ব্যানার — ইভেন্ট ১ আগস্ট থেকে ৩০ সেপ্টেম্বর"
-    },
-    {
       "src": "/assets/img/banners/hero-ambassador-owodog.webp",
       "w": 2000,
       "h": 352,
