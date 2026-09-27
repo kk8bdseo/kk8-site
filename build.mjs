@@ -443,6 +443,14 @@ for (const { page, html, out } of built) {
       fail(out, 7, `hreflang "${hl}" points off-domain (${href}) — declares the two properties duplicates`);
   }
 
+  // 11 — structural tags balance. An unclosed <button> or <div> silently swallows the
+  //      rest of an FAQ block, and the FAQ schema extracted from it goes wrong with it.
+  for (const tag of ['div', 'section', 'button', 'ul', 'ol', 'li', 'table', 'tr', 'a', 'h1', 'h2', 'h3', 'p', 'nav', 'aside']) {
+    const open = (html.match(new RegExp(`<${tag}(?=[\\s>])`, 'g')) || []).length;
+    const close = (html.match(new RegExp(`</${tag}>`, 'g')) || []).length;
+    if (open !== close) fail(out, 11, `<${tag}> opened ${open}× but closed ${close}×`);
+  }
+
   // 9 — no Malaysia leakage, no Bangladesh legality claim
   if (/\bRM\s?\d/.test(text) || /\bMYR\b/.test(text)) fail(out, 9, 'MYR/RM figure in copy');
   for (const rail of ['FPX', 'Touch \'n Go', 'DuitNow', 'Boost']) {
