@@ -27,36 +27,32 @@
     });
   });
 
-  /* Hero carousel. Scroll-snap already handles swipe with no JS; this adds dots and a
-     5s autoplay that stops for good the moment anyone touches, hovers or focuses it
-     (WCAG 2.2.2), and never starts for users who prefer reduced motion. */
+  /* Promotions carousel. Scroll-snap already handles swipe with no JS; this adds
+     arrows and dots. Deliberately no autoplay — it moves only when the visitor moves it. */
   var track = document.getElementById('heroTrack');
   if (track && track.children.length > 1) {
     var slides = track.children;
     var dots = document.querySelectorAll('#heroDots .hero-dot');
     var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var idx = 0, timer = null;
+    var idx = 0;
 
     var go = function (i) {
       idx = (i + slides.length) % slides.length;
       track.scrollTo({ left: slides[idx].offsetLeft, behavior: reduce ? 'auto' : 'smooth' });
     };
     var mark = function () {
-      var i = Math.round(track.scrollLeft / track.clientWidth);
-      idx = i;
+      idx = Math.round(track.scrollLeft / track.clientWidth);
       Array.prototype.forEach.call(dots, function (d, j) {
-        d.setAttribute('aria-current', j === i ? 'true' : 'false');
+        d.setAttribute('aria-current', j === idx ? 'true' : 'false');
       });
     };
-    var stop = function () { if (timer) { clearInterval(timer); timer = null; } };
 
     track.addEventListener('scroll', function () { window.requestAnimationFrame(mark); }, { passive: true });
     Array.prototype.forEach.call(dots, function (d, j) {
-      d.addEventListener('click', function () { stop(); go(j); });
+      d.addEventListener('click', function () { go(j); });
     });
-    ['pointerdown', 'mouseenter', 'focusin', 'touchstart'].forEach(function (ev) {
-      track.parentNode.addEventListener(ev, stop, { passive: true });
+    Array.prototype.forEach.call(document.querySelectorAll('.promo-arrow'), function (btn) {
+      btn.addEventListener('click', function () { go(idx + Number(btn.getAttribute('data-dir'))); });
     });
-    if (!reduce) timer = setInterval(function () { go(idx + 1); }, 5000);
   }
 })();

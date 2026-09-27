@@ -22,7 +22,7 @@
   /* Hero carousel — native scroll-snap; the scrollbar is hidden, not the scrolling. */
   .carousel-track { scrollbar-width: none; -ms-overflow-style: none; }
   .carousel-track::-webkit-scrollbar { display: none; }
-  .hero-dot[aria-current='true'] { @apply w-6 bg-white; }
+  .hero-dot[aria-current='true'] { @apply w-6 bg-brand-blue; }
 
   .hero {
     @apply relative overflow-hidden bg-brand-navy text-white;

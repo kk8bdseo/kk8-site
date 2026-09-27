@@ -120,41 +120,51 @@ function liveHeroBanners() {
   return (cfg.heroBanners || []).filter((b) => !b.expires || b.expires >= today);
 }
 
-/** Homepage carousel. Native scroll-snap does the work — swipe needs no JS at all;
- *  site.js only adds dots and an autoplay that stops the moment anyone interacts.
- *  The first surviving slide is the page's LCP element: eager, fetchpriority=high. */
+/** Homepage promotions section. Sits below the H1 hero, so nothing here is the LCP
+ *  element: every slide lazy-loads. Native scroll-snap handles swipe with no JS;
+ *  site.js adds arrows and dots. No autoplay — the visitor moves it or it stays put. */
 function heroCarousel() {
   const today = todayBD();
   const live = liveHeroBanners();
   const dropped = (cfg.heroBanners || []).length - live.length;
-  if (dropped) warns.push(`hero carousel: dropped ${dropped} expired banner(s)`);
+  if (dropped) warns.push(`promo carousel: dropped ${dropped} expired banner(s)`);
   for (const b of live) {
     if (!b.expires) continue;
     const days = Math.round((Date.parse(b.expires) - Date.parse(today)) / 864e5);
-    if (days <= 7) warns.push(`hero banner ends in ${days} day(s) (${b.expires}): ${b.src}`);
+    if (days <= 7) warns.push(`promo banner ends in ${days} day(s) (${b.expires}): ${b.src}`);
   }
   if (!live.length) return '';
   const slides = live.map((b, i) => `<li class="w-full shrink-0 snap-start" aria-roledescription="slide" aria-label="${i + 1} / ${live.length}">
-      <a href="${moneyUrl()}" rel="nofollow noopener" target="_blank" class="block">
-        <img src="${b.src}" alt="${esc(b.alt)}" width="${b.w}" height="${b.h}" ${i === 0
-          ? 'fetchpriority="high"' : 'loading="lazy" decoding="async"'}
-             class="block aspect-[12/5] w-full object-cover object-[38%_50%] md:aspect-[125/22]">
-      </a>
-    </li>`).join('\n');
-  const dots = live.length < 2 ? '' : `<div id="heroDots" class="absolute inset-x-0 bottom-3 flex justify-center gap-2">
-    ${live.map((_, i) => `<button type="button" class="hero-dot h-2 w-2 rounded-full bg-white/50 transition" aria-label="ব্যানার ${i + 1}" aria-current="${i === 0}"></button>`).join('')}
-  </div>`;
-  return `<section class="relative bg-brand-navy" aria-roledescription="carousel" aria-label="KK8 প্রোমোশন ও ব্র্যান্ড ব্যানার">
-  <ul id="heroTrack" class="carousel-track flex snap-x snap-mandatory overflow-x-auto">
-    ${slides}
-  </ul>
-  ${dots}
+        <a href="${moneyUrl()}" rel="nofollow noopener" target="_blank" class="block">
+          <img src="${b.src}" alt="${esc(b.alt)}" width="${b.w}" height="${b.h}" loading="lazy" decoding="async"
+               class="block aspect-[12/5] w-full object-cover object-[38%_50%] md:aspect-[125/22]">
+        </a>
+      </li>`).join('\n');
+  const many = live.length > 1;
+  const arrow = (dir, label, glyph) => `<button type="button" data-dir="${dir}" aria-label="${label}"
+        class="promo-arrow absolute top-1/2 hidden h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-xl font-bold text-brand-navy shadow transition hover:bg-white md:flex ${dir < 0 ? 'left-3' : 'right-3'}">${glyph}</button>`;
+  return `<section class="section" aria-labelledby="promo-heading">
+  <div class="flex items-end justify-between gap-4">
+    <div>
+      <p class="eyebrow">প্রোমোশন</p>
+      <h2 id="promo-heading" class="mt-3 text-2xl font-extrabold text-brand-navy">KK8 অফার ও খবর</h2>
+    </div>
+    <a href="/promotions.html" class="text-sm font-bold text-brand-blue underline">সব প্রোমোশন</a>
+  </div>
+  <div class="relative mt-6 overflow-hidden rounded-base bg-brand-navy" aria-roledescription="carousel" aria-label="KK8 অফার ও খবর">
+    <ul id="heroTrack" class="carousel-track flex snap-x snap-mandatory overflow-x-auto">
+      ${slides}
+    </ul>
+    ${many ? arrow(-1, 'আগের ব্যানার', '‹') + arrow(1, 'পরের ব্যানার', '›') : ''}
+  </div>
+  ${many ? `<div id="heroDots" class="mt-3 flex justify-center gap-2">
+    ${live.map((_, i) => `<button type="button" class="hero-dot h-2 w-2 rounded-full bg-brand-hair transition" aria-label="ব্যানার ${i + 1}" aria-current="${i === 0}"></button>`).join('')}
+  </div>` : ''}
 </section>`;
 }
 
 /** The image a page leads with, so head() can preload it ahead of CSS. */
 function lcpImage(page) {
-  if (page.slug === 'index') return liveHeroBanners()[0]?.src;
   if (page.banner) return cfg.categoryBanners?.[page.banner]?.src;
   return null;
 }
