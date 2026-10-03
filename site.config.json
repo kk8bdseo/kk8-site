@@ -1,5 +1,16 @@
 {
   "indexing": false,
+  "redirects": {
+    "/kk8/": "/",
+    "/kk8-register/": "/register.html",
+    "/register/": "/register.html",
+    "/kk8-login/": "/login.html",
+    "/slot-games/": "/casino-slots.html",
+    "/category/slot-games/": "/casino-slots.html",
+    "/live-games/": "/live-casino.html",
+    "/category/live-games/": "/live-casino.html",
+    "/promotion/": "/promotions.html"
+  },
   "lang": "bn",
   "hreflang": "bn-BD",
   "locale": "bn_BD",
