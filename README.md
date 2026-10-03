@@ -1,10 +1,10 @@
-# KK8 Bangladesh — SEO Site — `kk8.site`
+# KK8 Bangladesh — SEO Site — `kk8bd.site`
 
 Primary commercial property in the KK8 Bangladesh two-site brand SEO campaign.
 Static HTML, Bengali content, deployed on GitHub Pages behind Cloudflare.
 
 **Search intent this property owns:** navigational + transactional (kk8, kk8 login, kk8 register, kk8 app, kk8 casino, kk8 deposit).
-It must NOT compete with `kk8.news` on the same intent — that is what keeps both
+It must NOT compete with `kk8bd.news` on the same intent — that is what keeps both
 properties on page one instead of one filtering the other.
 
 ---
@@ -110,7 +110,7 @@ git add -A && git commit -m "content: <what changed>"
 git push
 ```
 
-GitHub Pages serves `main`. `CNAME` holds `kk8.site` — do not delete it, or the
+GitHub Pages serves `main`. `CNAME` holds `kk8bd.site` — do not delete it, or the
 custom domain unbinds.
 
 ### Launch switch — `"indexing"` in `site.config.json`
@@ -138,9 +138,6 @@ fetch a page to see its `noindex`.
   meta refresh is read by Google as a permanent redirect). Use the `/folder/`
   form. The build fails if the target is not a page in `pages.json`.
 - Removing an entry does not delete its folder — delete the folder by hand.
-- The entries present map the six pages of the WordPress demo that `kk8.site`
-  hosted before this build. Its other addresses (posts reviewing other casinos)
-  are deliberately left to the 404 page — they have no equivalent here.
 
 ---
 
