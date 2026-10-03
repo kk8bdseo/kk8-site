@@ -1,0 +1,22 @@
+<section class="border-b border-brand-hair bg-brand-tint">
+  <div class="mx-auto max-w-6xl px-4 py-10">
+    <nav aria-label="Breadcrumb" class="mb-4 text-xs text-brand-slate">
+      <a href="/en/" class="underline hover:text-brand-blue">Home</a>
+      <span aria-hidden="true"> / </span><span class="font-semibold text-brand-navy">{{page.h1}}</span>
+    </nav>
+    <h1 class="max-w-3xl text-2xl font-black text-brand-navy sm:text-4xl">{{page.h1}}</h1>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="{{moneyUrl}}" rel="nofollow noopener" target="_blank" class="btn-primary">Go to the official site</a>
+      <a href="/en/faq.html" class="btn-secondary">Common questions</a>
+    </div>
+    <p class="mt-4 text-xs text-brand-slate">{{minAge}}+ · Responsible gaming · Last verified {{lastVerified}}</p>
+  </div>
+</section>
+
+<div class="section prose-bn max-w-4xl">
+{{content}}
+</div>
+
+<div class="section max-w-4xl pt-0">
+  <!-- include: rg-notice -->
+</div>

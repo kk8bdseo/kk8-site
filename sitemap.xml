@@ -7,6 +7,8 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/"/>
   </url>
   <url>
     <loc>https://kk8bd.site/sports-betting.html</loc>
@@ -14,6 +16,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/sports-betting.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/sports-betting.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/sports-betting.html"/>
   </url>
   <url>
     <loc>https://kk8bd.site/login.html</loc>
@@ -21,6 +25,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/login.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/login.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/login.html"/>
   </url>
   <url>
     <loc>https://kk8bd.site/app-download.html</loc>
@@ -28,6 +34,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/app-download.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/app-download.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/app-download.html"/>
   </url>
   <url>
     <loc>https://kk8bd.site/casino-slots.html</loc>
@@ -35,6 +43,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/casino-slots.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/casino-slots.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/casino-slots.html"/>
   </url>
   <url>
     <loc>https://kk8bd.site/about.html</loc>
@@ -42,6 +52,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/about.html"/>
   </url>
   <url>
     <loc>https://kk8bd.site/faq.html</loc>
@@ -49,6 +61,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/faq.html"/>
   </url>
   <url>
     <loc>https://kk8bd.site/live-casino.html</loc>
@@ -56,6 +70,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/live-casino.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/live-casino.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/live-casino.html"/>
   </url>
   <url>
     <loc>https://kk8bd.site/promotions.html</loc>
@@ -63,6 +79,8 @@
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/promotions.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/promotions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/promotions.html"/>
   </url>
   <url>
     <loc>https://kk8bd.site/register.html</loc>
@@ -70,6 +88,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/register.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/register.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/register.html"/>
   </url>
   <url>
     <loc>https://kk8bd.site/deposit-withdrawal.html</loc>
@@ -77,6 +97,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/deposit-withdrawal.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/deposit-withdrawal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/deposit-withdrawal.html"/>
   </url>
   <url>
     <loc>https://kk8bd.site/why-choose-kk8.html</loc>
@@ -84,6 +106,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/why-choose-kk8.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/why-choose-kk8.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/why-choose-kk8.html"/>
   </url>
   <url>
     <loc>https://kk8bd.site/contact.html</loc>
@@ -91,6 +115,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/contact.html"/>
   </url>
   <url>
     <loc>https://kk8bd.site/responsible-gaming.html</loc>
@@ -98,6 +124,8 @@
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/responsible-gaming.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/responsible-gaming.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/responsible-gaming.html"/>
   </url>
   <url>
     <loc>https://kk8bd.site/terms.html</loc>
@@ -105,6 +133,8 @@
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/terms.html"/>
   </url>
   <url>
     <loc>https://kk8bd.site/promotions-hub.html</loc>
@@ -112,5 +142,151 @@
     <changefreq>daily</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/promotions-hub.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/promotions-hub.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/promotions-hub.html"/>
+  </url>
+  <url>
+    <loc>https://kk8bd.site/en/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/"/>
+  </url>
+  <url>
+    <loc>https://kk8bd.site/en/sports-betting.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/sports-betting.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/sports-betting.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/sports-betting.html"/>
+  </url>
+  <url>
+    <loc>https://kk8bd.site/en/login.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/login.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/login.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/login.html"/>
+  </url>
+  <url>
+    <loc>https://kk8bd.site/en/app-download.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/app-download.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/app-download.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/app-download.html"/>
+  </url>
+  <url>
+    <loc>https://kk8bd.site/en/casino-slots.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/casino-slots.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/casino-slots.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/casino-slots.html"/>
+  </url>
+  <url>
+    <loc>https://kk8bd.site/en/about.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/about.html"/>
+  </url>
+  <url>
+    <loc>https://kk8bd.site/en/faq.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/faq.html"/>
+  </url>
+  <url>
+    <loc>https://kk8bd.site/en/live-casino.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/live-casino.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/live-casino.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/live-casino.html"/>
+  </url>
+  <url>
+    <loc>https://kk8bd.site/en/promotions.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/promotions.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/promotions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/promotions.html"/>
+  </url>
+  <url>
+    <loc>https://kk8bd.site/en/register.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/register.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/register.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/register.html"/>
+  </url>
+  <url>
+    <loc>https://kk8bd.site/en/deposit-withdrawal.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/deposit-withdrawal.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/deposit-withdrawal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/deposit-withdrawal.html"/>
+  </url>
+  <url>
+    <loc>https://kk8bd.site/en/why-choose-kk8.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/why-choose-kk8.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/why-choose-kk8.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/why-choose-kk8.html"/>
+  </url>
+  <url>
+    <loc>https://kk8bd.site/en/contact.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/contact.html"/>
+  </url>
+  <url>
+    <loc>https://kk8bd.site/en/responsible-gaming.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/responsible-gaming.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/responsible-gaming.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/responsible-gaming.html"/>
+  </url>
+  <url>
+    <loc>https://kk8bd.site/en/terms.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/terms.html"/>
+  </url>
+  <url>
+    <loc>https://kk8bd.site/en/promotions-hub.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/promotions-hub.html"/>
+    <xhtml:link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/promotions-hub.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kk8bd.site/promotions-hub.html"/>
   </url>
 </urlset>

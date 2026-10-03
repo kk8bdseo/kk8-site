@@ -53,6 +53,9 @@
   .lede {
     @apply text-lg leading-bn text-brand-slate;
   }
+  /* Language switcher: <details>, no marker triangle in any browser. */
+  .lang-switch > summary { list-style: none; }
+  .lang-switch > summary::-webkit-details-marker { display: none; }
   .prose-bn p { @apply mb-4 leading-bn text-brand-slate; }
   .prose-bn h2 { @apply mb-3 mt-10 text-2xl font-extrabold text-brand-navy; }
   .prose-bn h3 { @apply mb-2 mt-6 text-lg font-bold text-brand-navy; }

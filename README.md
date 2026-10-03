@@ -38,6 +38,25 @@ Then rebuild:
 npm run build
 ```
 
+### Two languages — Bengali and English
+
+Every page exists twice. Bengali is the default and keeps the root addresses
+(`/login.html`); English lives under `/en/` (`/en/login.html`). Each pair points
+at the other with hreflang (`bn-BD` / `en-BD`, `x-default` = Bengali), and the
+flag switcher in the header links each page to its twin.
+
+| What | Bengali | English |
+|---|---|---|
+| Page body | `pages/<slug>.html` | `pages/en/<slug>.html` |
+| Title, H1, meta | `pages.json` → the page | `pages.json` → the page's `"en"` object |
+| Header, footer, shells… | `partials/<name>.html` | `partials/en/<name>.html` |
+| Config text | `labelBn`, `taglineBn`, `alt`… | `labelEn`, `taglineEn`, `altEn`… |
+| Links inside a page | `/login.html` | `/en/login.html` |
+
+**Edit both.** A fact changed in one language must be changed in the other —
+the client reads both. A page only builds in English when it has both an `"en"`
+entry and `pages/en/<slug>.html`; until then the switcher simply doesn't offer it.
+
 ### Changing the money-site link everywhere
 
 The register/login/deposit buttons all point at one value. Open
@@ -63,7 +82,7 @@ GitHub Pages serves the repo root directly.
 
 ## The build will refuse to publish broken SEO
 
-`npm run build` runs twelve validation gates and **fails with a non-zero exit**
+`npm run build` runs thirteen validation gates and **fails with a non-zero exit**
 if any page breaks one. This is deliberate — it is cheaper to fail a build than
 to publish a page that quietly loses its ranking. Numbers match the build's
 error messages.
@@ -81,6 +100,11 @@ error messages.
 10. No primary keyword is targeted twice — on this site or across both sites
 11. Structural tags (`div`, `section`, `button`, `a`, `p`, …) open and close in balance
 12. Exactly one robots meta, matching the launch switch below
+13. An English page carries no Bengali text (outside the language switcher's "বাংলা" link)
+
+Gate 6 also fails when a page links into the other language anywhere except the
+language switcher — an English page linking to `/login.html` instead of
+`/en/login.html` is an untranslated link.
 
 If a gate fails it names the page and the rule. Fix the source, rebuild.
 
@@ -172,6 +196,7 @@ assets/img/          self-hosted brand assets (never hotlink the operator's)
 sitemap.xml          generated from pages.json
 robots.txt           generated
 CNAME                custom domain for GitHub Pages
+en/                  English pages (generated — edit pages/en/ instead)
 _config.yml          keeps sources (pages/, partials/, pages.json …) off the published site
 404.html             generated "page not found" page
 ```

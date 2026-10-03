@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>পেজটি খুঁজে পাওয়া যায়নি | KK8 Bangladesh</title>
+  <title>পেজটি খুঁজে পাওয়া যায়নি · Page not found | KK8 Bangladesh</title>
   <meta name="robots" content="noindex">
   <meta name="theme-color" content="#0047ff">
   <link rel="icon" href="/assets/img/favicon-32x32.png" sizes="32x32">
@@ -32,8 +32,17 @@
       </ul>
     </nav>
 
-    <div class="ml-auto flex items-center gap-2">
-      <a href="/login.html" class="rounded-pill border border-brand-blue px-4 py-2 text-sm font-bold text-brand-blue transition hover:bg-brand-tint">লগইন</a>
+    <div class="ml-auto flex items-center gap-1.5 sm:gap-2">
+      <details class="lang-switch relative">
+        <summary class="flex cursor-pointer items-center gap-1.5 rounded-pill border border-brand-hair px-2.5 py-1.5 text-xs font-bold text-brand-navy transition hover:border-brand-blue" aria-label="ভাষা: বাংলা">
+          <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" class="shrink-0"><circle cx="10" cy="10" r="10" fill="#006a4e"/><circle cx="9" cy="10" r="4.6" fill="#f42a41"/></svg><span>বাং</span><span aria-hidden="true" class="text-[10px] text-brand-slate">▾</span>
+        </summary>
+        <div class="absolute right-0 z-50 mt-2 w-52 rounded-base border border-brand-hair bg-white p-4 shadow-lg">
+          <p class="flex items-center gap-2 text-sm font-bold text-brand-navy"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" class="shrink-0"><circle cx="10" cy="10" r="10" fill="#006a4e"/><circle cx="9" cy="10" r="4.6" fill="#f42a41"/></svg>বাংলাদেশ</p>
+          <ul class="mt-2 flex items-center gap-2 pl-7 text-sm"><li><a href="/en/" hreflang="en" lang="en" class="text-brand-navy hover:text-brand-blue">English</a></li><li aria-hidden="true" class="text-brand-hair">|</li><li><a href="/" hreflang="bn" lang="bn" class="font-bold text-brand-blue underline" aria-current="true">বাংলা</a></li></ul>
+        </div>
+      </details>
+      <a href="/login.html" class="hidden rounded-pill border border-brand-blue px-4 py-2 text-sm font-bold text-brand-blue transition hover:bg-brand-tint sm:inline-block">লগইন</a>
       <a href="https://kk8bdbest.com/bd/" rel="nofollow noopener" target="_blank"
          class="rounded-btn bg-brand-blue px-4 py-2 text-sm font-bold text-white transition hover:bg-brand-bright">রেজিস্টার</a>
       <button type="button" id="navToggle" class="rounded-base border border-brand-hair p-2 lg:hidden"
@@ -62,13 +71,22 @@
 <main id="main">
 <section class="border-b border-brand-hair bg-brand-tint">
   <div class="mx-auto max-w-6xl px-4 py-16">
-    <p class="text-sm font-bold text-brand-blue">৪০৪</p>
+    <p class="text-sm font-bold text-brand-blue">৪০৪ · 404</p>
     <h1 class="mt-2 max-w-3xl text-2xl font-black text-brand-navy sm:text-4xl">পেজটি খুঁজে পাওয়া যায়নি</h1>
     <p class="mt-4 max-w-2xl text-brand-slate">আপনি যে ঠিকানাটি খুলেছেন সেটি সরানো হয়েছে বা আর নেই। KK8 Bangladesh-এর মূল পেজগুলো নিচে দেওয়া হলো।</p>
     <div class="mt-6 flex flex-wrap gap-3">
       <a href="/" class="btn-primary">হোমপেজে যান</a>
       <a href="/login.html" class="btn-secondary">KK8 লগইন</a>
       <a href="/register.html" class="btn-secondary">রেজিস্টার</a>
+    </div>
+    <div lang="en" class="mt-10 border-t border-brand-hair pt-8">
+      <p class="text-xl font-extrabold text-brand-navy">Page not found</p>
+      <p class="mt-3 max-w-2xl text-brand-slate">The address you opened has moved or no longer exists. Here are KK8 Bangladesh's main pages in English.</p>
+      <div class="mt-5 flex flex-wrap gap-3">
+        <a href="/en/" class="btn-primary">Go to the homepage</a>
+        <a href="/en/login.html" class="btn-secondary">KK8 login</a>
+        <a href="/en/register.html" class="btn-secondary">Register</a>
+      </div>
     </div>
   </div>
 </section>

@@ -7,6 +7,7 @@
   <meta name="description" content="KK8 কাস্টমার সাপোর্টে যোগাযোগ করুন — লাইভ চ্যাট, টেলিগ্রাম ও সোশ্যাল চ্যানেল। বাংলাদেশ প্লেয়ারদের জন্য সাপোর্ট গাইড।">
   <link rel="canonical" href="https://kk8bd.site/contact.html">
   <link rel="alternate" hreflang="bn-BD" href="https://kk8bd.site/contact.html">
+  <link rel="alternate" hreflang="en-BD" href="https://kk8bd.site/en/contact.html">
   <link rel="alternate" hreflang="x-default" href="https://kk8bd.site/contact.html">
   <meta name="theme-color" content="#0047ff">
   <meta name="robots" content="noindex,nofollow">
@@ -14,6 +15,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="KK8 Bangladesh">
   <meta property="og:locale" content="bn_BD">
+  <meta property="og:locale:alternate" content="en_GB">
   <meta property="og:title" content="KK8 কন্টাক্ট ও সাপোর্ট — ২৪/৭ হেল্প | KK8 Bangladesh">
   <meta property="og:description" content="KK8 কাস্টমার সাপোর্টে যোগাযোগ করুন — লাইভ চ্যাট, টেলিগ্রাম ও সোশ্যাল চ্যানেল। বাংলাদেশ প্লেয়ারদের জন্য সাপোর্ট গাইড।">
   <meta property="og:url" content="https://kk8bd.site/contact.html">
@@ -102,8 +104,17 @@
       </ul>
     </nav>
 
-    <div class="ml-auto flex items-center gap-2">
-      <a href="/login.html" class="rounded-pill border border-brand-blue px-4 py-2 text-sm font-bold text-brand-blue transition hover:bg-brand-tint">লগইন</a>
+    <div class="ml-auto flex items-center gap-1.5 sm:gap-2">
+      <details class="lang-switch relative">
+        <summary class="flex cursor-pointer items-center gap-1.5 rounded-pill border border-brand-hair px-2.5 py-1.5 text-xs font-bold text-brand-navy transition hover:border-brand-blue" aria-label="ভাষা: বাংলা">
+          <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" class="shrink-0"><circle cx="10" cy="10" r="10" fill="#006a4e"/><circle cx="9" cy="10" r="4.6" fill="#f42a41"/></svg><span>বাং</span><span aria-hidden="true" class="text-[10px] text-brand-slate">▾</span>
+        </summary>
+        <div class="absolute right-0 z-50 mt-2 w-52 rounded-base border border-brand-hair bg-white p-4 shadow-lg">
+          <p class="flex items-center gap-2 text-sm font-bold text-brand-navy"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" class="shrink-0"><circle cx="10" cy="10" r="10" fill="#006a4e"/><circle cx="9" cy="10" r="4.6" fill="#f42a41"/></svg>বাংলাদেশ</p>
+          <ul class="mt-2 flex items-center gap-2 pl-7 text-sm"><li><a href="/en/contact.html" hreflang="en" lang="en" class="text-brand-navy hover:text-brand-blue">English</a></li><li aria-hidden="true" class="text-brand-hair">|</li><li><a href="/contact.html" hreflang="bn" lang="bn" class="font-bold text-brand-blue underline" aria-current="true">বাংলা</a></li></ul>
+        </div>
+      </details>
+      <a href="/login.html" class="hidden rounded-pill border border-brand-blue px-4 py-2 text-sm font-bold text-brand-blue transition hover:bg-brand-tint sm:inline-block">লগইন</a>
       <a href="https://kk8bdbest.com/bd/" rel="nofollow noopener" target="_blank"
          class="rounded-btn bg-brand-blue px-4 py-2 text-sm font-bold text-white transition hover:bg-brand-bright">রেজিস্টার</a>
       <button type="button" id="navToggle" class="rounded-base border border-brand-hair p-2 lg:hidden"

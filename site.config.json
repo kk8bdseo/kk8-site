@@ -35,19 +35,22 @@
       "id": "bkash",
       "name": "bKash",
       "nameBn": "বিকাশ",
-      "type": "মোবাইল ফিনান্সিয়াল সার্ভিস"
+      "type": "মোবাইল ফিনান্সিয়াল সার্ভিস",
+      "typeEn": "Mobile financial service"
     },
     {
       "id": "nagad",
       "name": "Nagad",
       "nameBn": "নগদ",
-      "type": "মোবাইল ফিনান্সিয়াল সার্ভিস"
+      "type": "মোবাইল ফিনান্সিয়াল সার্ভিস",
+      "typeEn": "Mobile financial service"
     },
     {
       "id": "rocket",
       "name": "Rocket",
       "nameBn": "রকেট",
-      "type": "মোবাইল ফিনান্সিয়াল সার্ভিস"
+      "type": "মোবাইল ফিনান্সিয়াল সার্ভিস",
+      "typeEn": "Mobile financial service"
     }
   ],
   "paymentRailsVerified": false,
@@ -208,7 +211,8 @@
     "org": "Kaan Pete Roi",
     "orgBn": "কান পেতে রই",
     "phone": "+880 9612-119911",
-    "descBn": "বাংলাদেশের ইমোশনাল সাপোর্ট ও ক্রাইসিস হেল্পলাইন"
+    "descBn": "বাংলাদেশের ইমোশনাল সাপোর্ট ও ক্রাইসিস হেল্পলাইন",
+    "descEn": "Bangladesh's emotional-support and crisis helpline"
   },
   "minAge": 18,
   "lastVerified": "2026-09-27",
@@ -276,19 +280,22 @@
       "src": "/assets/img/banners/hero-ambassador-owodog.webp",
       "w": 2000,
       "h": 352,
-      "alt": "KK8-এর নতুন ব্র্যান্ড অ্যাম্বাসেডর Owodog-এর ব্যানার"
+      "alt": "KK8-এর নতুন ব্র্যান্ড অ্যাম্বাসেডর Owodog-এর ব্যানার",
+      "altEn": "Banner for KK8's new brand ambassador Owodog"
     },
     {
       "src": "/assets/img/banners/hero-bwf-sponsor.webp",
       "w": 2000,
       "h": 352,
-      "alt": "BWF ওয়ার্ল্ড ট্যুর ২০২৫–২০২৬-এ KK8-এর অফিসিয়াল স্পনসরশিপের ব্যানার"
+      "alt": "BWF ওয়ার্ল্ড ট্যুর ২০২৫–২০২৬-এ KK8-এর অফিসিয়াল স্পনসরশিপের ব্যানার",
+      "altEn": "KK8 banner: official sponsor of the BWF World Tour 2025–2026"
     },
     {
       "src": "/assets/img/banners/hero-tottenham-sponsor.webp",
       "w": 2000,
       "h": 352,
-      "alt": "টটেনহাম হটস্পার-এর অফিসিয়াল এশিয়ান স্পনসর হিসেবে KK8-এর ব্যানার"
+      "alt": "টটেনহাম হটস্পার-এর অফিসিয়াল এশিয়ান স্পনসর হিসেবে KK8-এর ব্যানার",
+      "altEn": "KK8 banner: official Asian sponsor of Tottenham Hotspur"
     }
   ],
   "heroBannersNote": "Client-supplied KK8 creative, 2026-09-27. English copy is baked into these five images; the page's H1 and body carry the Bengali and the SEO signal. Sponsorship and ambassador claims are KK8's own creative and are not repeated as fact in body copy.",
@@ -298,21 +305,27 @@
       "w": 1100,
       "h": 517,
       "alt": "KK8 স্লট গেমের ব্যানার — Zeus, পিনাটা ও জনপ্রিয় স্লট চরিত্র",
-      "taglineBn": "শীর্ষ প্রোভাইডারের স্লট গেম, একটি অ্যাকাউন্টে"
+      "taglineBn": "শীর্ষ প্রোভাইডারের স্লট গেম, একটি অ্যাকাউন্টে",
+      "taglineEn": "Slots from top providers, one account",
+      "altEn": "KK8 slots banner — Zeus, Piñata and popular slot characters"
     },
     "live": {
       "src": "/assets/img/banners/cat-live.jpg",
       "w": 1100,
       "h": 515,
       "alt": "KK8 লাইভ ক্যাসিনো ব্যানার — ব্র্যান্ড অ্যাম্বাসেডর Owodog ও কার্ড টেবিল",
-      "taglineBn": "রিয়েল ডিলারের সঙ্গে সরাসরি টেবিল গেম"
+      "taglineBn": "রিয়েল ডিলারের সঙ্গে সরাসরি টেবিল গেম",
+      "taglineEn": "Live table games with real dealers",
+      "altEn": "KK8 live casino banner — brand ambassador Owodog at the card tables"
     },
     "sports": {
       "src": "/assets/img/banners/cat-sports.jpg",
       "w": 1100,
       "h": 515,
       "alt": "KK8 স্পোর্টস বেটিং ব্যানার — ফুটবল, ব্যাডমিন্টন ও টেবিল টেনিস খেলোয়াড়",
-      "taglineBn": "ফুটবল ও আন্তর্জাতিক খেলায় বেটিং"
+      "taglineBn": "ফুটবল ও আন্তর্জাতিক খেলায় বেটিং",
+      "taglineEn": "Betting on football and international sport",
+      "altEn": "KK8 sports betting banner — football, badminton and table tennis players"
     }
   },
   "providerGroups": [
@@ -422,7 +435,8 @@
           "w": 280,
           "h": 359
         }
-      ]
+      ],
+      "labelEn": "Slots"
     },
     {
       "id": "live",
@@ -458,7 +472,8 @@
           "w": 280,
           "h": 359
         }
-      ]
+      ],
+      "labelEn": "Live Casino"
     },
     {
       "id": "sports",
@@ -488,7 +503,8 @@
           "w": 280,
           "h": 359
         }
-      ]
+      ],
+      "labelEn": "Sports & eSports"
     },
     {
       "id": "lotteryRacing",
@@ -506,11 +522,31 @@
           "w": 280,
           "h": 359
         }
-      ]
+      ],
+      "labelEn": "Lottery & Racing"
     }
   ],
   "providersExcluded": {
     "SV388": "cockfighting betting",
     "RCB988": "cockfighting betting"
-  }
+  },
+  "langs": {
+    "bn": {
+      "hreflang": "bn-BD",
+      "locale": "bn_BD",
+      "prefix": "",
+      "label": "বাংলা",
+      "short": "বাং"
+    },
+    "en": {
+      "hreflang": "en-BD",
+      "locale": "en_GB",
+      "prefix": "/en",
+      "label": "English",
+      "short": "EN"
+    }
+  },
+  "taglineEn": "The official KK8 brand site for Bangladesh",
+  "sisterSiteNameEn": "KK8 Review & Trust Hub",
+  "sisterSiteEn": "https://kk8bd.news/en/"
 }

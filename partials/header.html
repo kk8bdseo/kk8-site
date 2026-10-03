@@ -10,8 +10,9 @@
       </ul>
     </nav>
 
-    <div class="ml-auto flex items-center gap-2">
-      <a href="/login.html" class="rounded-pill border border-brand-blue px-4 py-2 text-sm font-bold text-brand-blue transition hover:bg-brand-tint">লগইন</a>
+    <div class="ml-auto flex items-center gap-1.5 sm:gap-2">
+      {{langSwitch}}
+      <a href="/login.html" class="hidden rounded-pill border border-brand-blue px-4 py-2 text-sm font-bold text-brand-blue transition hover:bg-brand-tint sm:inline-block">লগইন</a>
       <a href="{{moneyUrl}}" rel="nofollow noopener" target="_blank"
          class="rounded-btn bg-brand-blue px-4 py-2 text-sm font-bold text-white transition hover:bg-brand-bright">রেজিস্টার</a>
       <button type="button" id="navToggle" class="rounded-base border border-brand-hair p-2 lg:hidden"

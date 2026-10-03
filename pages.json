@@ -23,7 +23,12 @@
       ],
       "bdVolume": 5100,
       "bdDifficulty": 5,
-      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
+      "en": {
+        "title": "KK8 Bangladesh — Official Online Casino & Betting Site",
+        "h1": "KK8 Bangladesh — Official Online Casino and Sports Betting",
+        "meta": "The official KK8 brand site for Bangladesh. Slots, live casino, sports and lottery — Curaçao licensed. bKash, Nagad and Rocket supported. Register now."
+      }
     },
     {
       "slug": "sports-betting",
@@ -47,7 +52,12 @@
       ],
       "bdVolume": 250,
       "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
-      "banner": "sports"
+      "banner": "sports",
+      "en": {
+        "title": "KK8 Bet — Sports & Cricket Betting | KK8 Bangladesh",
+        "h1": "KK8 Bet — Sports and Cricket Betting from Bangladesh",
+        "meta": "Bet on cricket, football and international leagues with KK8 bet. Account, markets and a betting guide for players in Bangladesh."
+      }
     },
     {
       "slug": "login",
@@ -74,7 +84,12 @@
         "FAQPage"
       ],
       "bdVolume": 80,
-      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
+      "en": {
+        "title": "KK8 Login — Official KK8 Bangladesh Login Page",
+        "h1": "KK8 Login — Official Access for Players in Bangladesh",
+        "meta": "Log in to KK8 safely. The official KK8 login guide for players in Bangladesh, with password recovery and how to spot fake sites."
+      }
     },
     {
       "slug": "app-download",
@@ -102,7 +117,12 @@
         "FAQPage"
       ],
       "bdVolume": 60,
-      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
+      "en": {
+        "title": "KK8 App Download — APK & iOS | KK8 Bangladesh",
+        "h1": "KK8 App Download — Android APK and iOS Guide",
+        "meta": "Download the KK8 app in Bangladesh. Android APK and iOS install guide, system requirements and the rules for a safe download."
+      }
     },
     {
       "slug": "casino-slots",
@@ -128,7 +148,12 @@
       ],
       "bdVolume": 30,
       "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
-      "banner": "slots"
+      "banner": "slots",
+      "en": {
+        "title": "KK8 Casino & Slot Games — Pragmatic Play, JDB | Bangladesh",
+        "h1": "KK8 Casino and Slot Games — for Players in Bangladesh",
+        "meta": "Play slots from Pragmatic Play, Lucky365, JDB and Monkey King at KK8 casino. Access from Bangladesh, the provider list and game categories."
+      }
     },
     {
       "slug": "about",
@@ -150,7 +175,12 @@
         "BreadcrumbList"
       ],
       "bdVolume": 20,
-      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
+      "en": {
+        "title": "About KK8 — Brand, Licence & Platform | Bangladesh",
+        "h1": "About KK8 — Brand, Licence and Platform",
+        "meta": "What KK8 is, who runs it and what its Curaçao licence #365/JAZ means. A brand introduction for players in Bangladesh."
+      }
     },
     {
       "slug": "faq",
@@ -173,7 +203,12 @@
         "FAQPage"
       ],
       "bdVolume": 0,
-      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
+      "en": {
+        "title": "KK8 FAQ — Answers to Common Questions | KK8 Bangladesh",
+        "h1": "KK8 FAQ — Common Questions from Players in Bangladesh",
+        "meta": "Answers to what players in Bangladesh ask most about KK8 — login, registration, deposits, withdrawals, the app and bonuses."
+      }
     },
     {
       "slug": "live-casino",
@@ -195,7 +230,12 @@
       ],
       "bdVolume": 10,
       "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
-      "banner": "live"
+      "banner": "live",
+      "en": {
+        "title": "KK8 Live Casino — Live Dealer Games | KK8 Bangladesh",
+        "h1": "KK8 Live Casino — Live Dealer Tables from Bangladesh",
+        "meta": "Play baccarat, roulette and blackjack with real dealers at KK8 live casino. AE Sexy tables and a full guide for players in Bangladesh."
+      }
     },
     {
       "slug": "promotions",
@@ -217,7 +257,12 @@
         "BreadcrumbList"
       ],
       "bdVolume": 10,
-      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
+      "en": {
+        "title": "KK8 Bonuses & Promotions for Bangladesh | KK8",
+        "h1": "KK8 Bonuses and Promotions — for Players in Bangladesh",
+        "meta": "KK8's welcome bonus, reload bonus and rebate offers explained, with the terms and how to claim — for players in Bangladesh."
+      }
     },
     {
       "slug": "register",
@@ -239,7 +284,12 @@
         "FAQPage"
       ],
       "bdVolume": 0,
-      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
+      "en": {
+        "title": "KK8 Register — Open a New Account | KK8 Bangladesh",
+        "h1": "KK8 Register — The Complete Guide to Opening an Account from Bangladesh",
+        "meta": "Register with KK8 in a few minutes. A step-by-step guide to opening an account from Bangladesh, what you need and security tips."
+      }
     },
     {
       "slug": "deposit-withdrawal",
@@ -258,7 +308,12 @@
         "BreadcrumbList"
       ],
       "bdVolume": 0,
-      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
+      "en": {
+        "title": "KK8 Deposit & Withdrawal — bKash, Nagad, Rocket | Bangladesh",
+        "h1": "KK8 Deposit and Withdrawal — bKash, Nagad and Rocket",
+        "meta": "How KK8 deposits and withdrawals work in Bangladesh — bKash, Nagad and Rocket. Step-by-step guide, security and fixes for common problems."
+      }
     },
     {
       "slug": "why-choose-kk8",
@@ -279,7 +334,12 @@
         "BreadcrumbList"
       ],
       "bdVolume": 0,
-      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
+      "en": {
+        "title": "Why Choose KK8 — Trust & Security | KK8 Bangladesh",
+        "h1": "Why Choose KK8 — Trust, Security and the Official Site",
+        "meta": "KK8's Curaçao licence, iTech Labs and BMM audits, encryption, and how to recognise the official site — for players in Bangladesh."
+      }
     },
     {
       "slug": "contact",
@@ -300,7 +360,12 @@
         "BreadcrumbList"
       ],
       "bdVolume": 0,
-      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
+      "en": {
+        "title": "KK8 Contact & Support — 24/7 Help | KK8 Bangladesh",
+        "h1": "KK8 Contact and Customer Support",
+        "meta": "Contact KK8 customer service — live chat, Telegram and social channels. A support guide for players in Bangladesh."
+      }
     },
     {
       "slug": "responsible-gaming",
@@ -319,7 +384,12 @@
         "BreadcrumbList"
       ],
       "bdVolume": 0,
-      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
+      "en": {
+        "title": "KK8 Responsible Gaming — 18+ & Support | Bangladesh",
+        "h1": "KK8 Responsible Gaming — Play Safely",
+        "meta": "Responsible gaming guidance, the 18+ policy, setting limits and support in Bangladesh — Kaan Pete Roi helpline +880 9612-119911."
+      }
     },
     {
       "slug": "terms",
@@ -338,7 +408,12 @@
         "BreadcrumbList"
       ],
       "bdVolume": 0,
-      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
+      "en": {
+        "title": "Terms & Conditions | KK8 Bangladesh",
+        "h1": "Terms and Conditions — KK8 Bangladesh",
+        "meta": "The terms for using the KK8 Bangladesh site — age limit, liability and our policy on external links."
+      }
     },
     {
       "slug": "promotions-hub",
@@ -359,7 +434,12 @@
         "BreadcrumbList"
       ],
       "bdVolume": 0,
-      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25"
+      "volumeSource": "Ahrefs Keywords Explorer, country=BD, 2026-09-25",
+      "en": {
+        "title": "KK8 Promotions Hub — Every Offer in One Place | Bangladesh",
+        "h1": "KK8 Promotions Hub — Every Offer by Product",
+        "meta": "Every KK8 promotion sorted by product — slots, live casino, sports and rebates. An offer directory for players in Bangladesh."
+      }
     }
   ]
 }
