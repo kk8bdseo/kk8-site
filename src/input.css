@@ -62,7 +62,9 @@
   .prose-bn ul { @apply mb-4 space-y-2; }
   .prose-bn li { @apply leading-bn text-brand-slate; }
   .prose-bn strong { @apply font-bold text-brand-navy; }
-  .prose-bn a { @apply font-semibold text-brand-blue underline; }
+  /* Buttons inside body copy keep their own colours — a plain .prose-bn a rule out-specifies
+     .btn-primary and paints the label blue on blue (the "blank" helpline button, UAT 2026-10-18). */
+  .prose-bn a:not(.btn-primary):not(.btn-secondary) { @apply font-semibold text-brand-blue underline; }
 
   .faq-q {
     @apply flex w-full items-center justify-between gap-4 border-b border-brand-hair py-4 text-left text-base font-bold text-brand-navy;

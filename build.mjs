@@ -43,11 +43,11 @@ const UI = {
   bn: { home: 'হোম', provider: 'প্রোভাইডার', slotGame: (p) => `${p}-এর স্লট গেম`,
         promoEyebrow: 'প্রোমোশন', promoTitle: 'KK8 অফার ও খবর', allPromos: 'সব প্রোমোশন',
         prev: 'আগের ব্যানার', next: 'পরের ব্যানার', banner: 'ব্যানার', language: 'ভাষা', country: 'বাংলাদেশ',
-        nav: ['হোম', 'ক্যাসিনো ও স্লট', 'লাইভ ক্যাসিনো', 'স্পোর্টস', 'প্রোমোশন', 'অ্যাপ', 'ডিপোজিট', 'FAQ'] },
+        nav: ['হোম', 'স্লট', 'লাইভ ক্যাসিনো', 'স্পোর্টস', 'প্রোমোশন', 'অ্যাপ', 'ডিপোজিট', 'FAQ'] },
   en: { home: 'Home', provider: 'provider', slotGame: (p) => `slot game by ${p}`,
         promoEyebrow: 'Promotions', promoTitle: 'KK8 offers and news', allPromos: 'All promotions',
         prev: 'Previous banner', next: 'Next banner', banner: 'Banner', language: 'Language', country: 'Bangladesh',
-        nav: ['Home', 'Casino & Slots', 'Live Casino', 'Sports', 'Promotions', 'App', 'Deposit', 'FAQ'] },
+        nav: ['Home', 'Slots', 'Live Casino', 'Sports', 'Promotions', 'App', 'Deposit', 'FAQ'] },
 };
 const ui = () => UI[LANG];
 
@@ -95,11 +95,23 @@ const moneyUrl = () => cfg.moneySite + (cfg.moneySiteParams || '');
 /* ------------------------------------------------------- computed fragments */
 
 /** KK8's own provider cards (name + category label printed on the art). Lazy: every
- *  provider list sits below the fold. width/height reserve space, so nothing shifts. */
-const providerCard = (p, g, liClass) => `<li class="${liClass}">
+ *  provider list sits below the fold. width/height reserve space, so nothing shifts.
+ *  A provider without card art yet gets a text card in the same 280:359 frame. */
+const providerCard = (p, g, liClass) => p.img ? `<li class="${liClass}">
       <img src="${p.img}" alt="${esc(p.name)} — ${esc(tr(g, 'label'))} ${ui().provider}" width="${p.w}" height="${p.h}"
            loading="lazy" decoding="async" class="block h-auto w-full">
+    </li>` : `<li class="${liClass}">
+      <div class="flex aspect-[280/359] w-full flex-col items-center justify-end rounded-base bg-gradient-to-b from-brand-blue to-brand-navy px-2 pb-[12%] text-center text-white">
+        <span class="text-base font-extrabold uppercase leading-tight sm:text-lg">${esc(p.name)}</span>
+        <span class="mt-1 text-[11px] font-semibold uppercase tracking-wider text-white/80">- ${esc(tr(g, 'label'))} -</span>
+      </div>
     </li>`;
+
+/** Every payment method by name, in the page's language: "bKash, Nagad … and Crypto (USDT)". */
+function railsList() {
+  const names = cfg.paymentRails.map((r) => tr(r, 'name'));
+  return names.slice(0, -1).join(', ') + (LANG === 'bn' ? ' ও ' : ' and ') + names.at(-1);
+}
 
 /** One category's providers as a grid, for the page about that category. */
 function providerGroup(id) {
@@ -167,6 +179,15 @@ function liveHeroBanners() {
   return (cfg.heroBanners || []).filter((b) => !b.expires || b.expires >= today);
 }
 
+/** Hero banners come as separate artwork per device and language:
+ *  /assets/img/banners/<file>-<desktop|mobile>-<bn|en>.webp. A missing file fails the
+ *  build rather than shipping a broken slide. */
+function heroSrc(b, device) {
+  const src = `/assets/img/banners/${b.file}-${device}-${LANG}.webp`;
+  if (!existsSync(join(ROOT, src.slice(1)))) errors.push(`[index] hero banner missing: ${src}`);
+  return src;
+}
+
 /** Homepage promotions section. Sits below the H1 hero, so nothing here is the LCP
  *  element: every slide lazy-loads. Native scroll-snap handles swipe with no JS;
  *  site.js adds arrows and dots. No autoplay — the visitor moves it or it stays put. */
@@ -178,13 +199,16 @@ function heroCarousel() {
   for (const b of live) {
     if (!b.expires) continue;
     const days = Math.round((Date.parse(b.expires) - Date.parse(today)) / 864e5);
-    if (days <= 7) warns.push(`promo banner ends in ${days} day(s) (${b.expires}): ${b.src}`);
+    if (days <= 7) warns.push(`promo banner ends in ${days} day(s) (${b.expires}): ${b.file}`);
   }
   if (!live.length) return '';
   const slides = live.map((b, i) => `<li class="w-full shrink-0 snap-start" aria-roledescription="slide" aria-label="${i + 1} / ${live.length}">
         <a href="${moneyUrl()}" rel="nofollow noopener" target="_blank" class="block">
-          <img src="${b.src}" alt="${esc(tr(b, 'alt'))}" width="${b.w}" height="${b.h}" loading="lazy" decoding="async"
-               class="block aspect-[12/5] w-full object-cover object-[38%_50%] md:aspect-[125/22]">
+          <picture>
+            <source media="(min-width: 768px)" srcset="${heroSrc(b, 'desktop')}" width="${b.w}" height="${b.h}">
+            <img src="${heroSrc(b, 'mobile')}" alt="${esc(tr(b, 'alt'))}" width="${b.mw}" height="${b.mh}" loading="lazy" decoding="async"
+                 class="block aspect-[59/24] w-full object-cover md:aspect-[125/22]">
+          </picture>
         </a>
       </li>`).join('\n');
   const many = live.length > 1;
@@ -386,6 +410,8 @@ for (const base of pages) {
     langSwitch: langSwitch(page.slug),
     providerGrid: providerGrid(),
     providerCount: (cfg.providers || []).length,
+    railsList: railsList(),
+    providerNames: (cfg.providers || []).map((p) => p.name).join(', '),
     providerGroups: Object.fromEntries((cfg.providerGroups || []).map((g) => [g.id, providerGroup(g.id)])),
     paymentList: paymentList(),
     categoryGrid: categoryGrid(),

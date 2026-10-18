@@ -51,15 +51,25 @@
       "nameBn": "রকেট",
       "type": "মোবাইল ফিনান্সিয়াল সার্ভিস",
       "typeEn": "Mobile financial service"
+    },
+    {
+      "id": "upay",
+      "name": "Upay",
+      "nameBn": "উপায়",
+      "type": "মোবাইল ফিনান্সিয়াল সার্ভিস",
+      "typeEn": "Mobile financial service"
+    },
+    {
+      "id": "crypto",
+      "name": "Crypto (USDT)",
+      "nameBn": "ক্রিপ্টো (USDT)",
+      "type": "ক্রিপ্টোকারেন্সি",
+      "typeEn": "Cryptocurrency"
     }
   ],
   "paymentRailsVerified": false,
-  "paymentRailsNote": "Client-directed assertion, 2026-09-24. Not verifiable against the live money site — see spec §3.2. Rail names only; no amounts, timings or fees.",
+  "paymentRailsNote": "Client-directed assertion: bKash/Nagad/Rocket 2026-09-24, Upay and Crypto added in the UAT sheet 2026-10-18 (client also supplied a 'USDT Top-Up Available Now' banner). Not verifiable on the live money site, which still shows Coming Soon outside BD. Minimum deposit is stated only as 'varies daily' (client wording); no amounts, timings or fees.",
   "providers": [
-    {
-      "name": "Pragmatic Play",
-      "category": "স্লট"
-    },
     {
       "name": "Lucky365",
       "category": "স্লট"
@@ -69,23 +79,11 @@
       "category": "স্লট"
     },
     {
+      "name": "Pragmatic Play",
+      "category": "স্লট"
+    },
+    {
       "name": "JDB",
-      "category": "স্লট"
-    },
-    {
-      "name": "Monkey King",
-      "category": "স্লট"
-    },
-    {
-      "name": "Microslot",
-      "category": "স্লট"
-    },
-    {
-      "name": "NextSpin",
-      "category": "স্লট"
-    },
-    {
-      "name": "BNG",
       "category": "স্লট"
     },
     {
@@ -93,23 +91,11 @@
       "category": "স্লট"
     },
     {
-      "name": "CQ9",
+      "name": "Playtech",
       "category": "স্লট"
     },
     {
-      "name": "Red Tiger",
-      "category": "স্লট"
-    },
-    {
-      "name": "RSG",
-      "category": "স্লট"
-    },
-    {
-      "name": "YGR",
-      "category": "স্লট"
-    },
-    {
-      "name": "Mega888",
+      "name": "PG Soft",
       "category": "স্লট"
     },
     {
@@ -117,27 +103,7 @@
       "category": "স্লট"
     },
     {
-      "name": "AskMeSlot",
-      "category": "স্লট"
-    },
-    {
-      "name": "Pragmatic Play Pop",
-      "category": "স্লট"
-    },
-    {
-      "name": "Evolution",
-      "category": "লাইভ ক্যাসিনো"
-    },
-    {
-      "name": "AE Sexy",
-      "category": "লাইভ ক্যাসিনো"
-    },
-    {
-      "name": "Pragmatic Play Live",
-      "category": "লাইভ ক্যাসিনো"
-    },
-    {
-      "name": "Big Gaming",
+      "name": "Sexy Gaming",
       "category": "লাইভ ক্যাসিনো"
     },
     {
@@ -145,31 +111,35 @@
       "category": "লাইভ ক্যাসিনো"
     },
     {
-      "name": "SBOBET",
-      "category": "স্পোর্টস ও ই-স্পোর্টস"
+      "name": "Big Gaming",
+      "category": "লাইভ ক্যাসিনো"
     },
     {
-      "name": "MaxBet",
-      "category": "স্পোর্টস ও ই-স্পোর্টস"
+      "name": "Playtech Live",
+      "category": "লাইভ ক্যাসিনো"
+    },
+    {
+      "name": "Evolution",
+      "category": "লাইভ ক্যাসিনো"
     },
     {
       "name": "CMD368",
-      "category": "স্পোর্টস ও ই-স্পোর্টস"
+      "category": "স্পোর্টস"
     },
     {
-      "name": "E1 Sport",
-      "category": "স্পোর্টস ও ই-স্পোর্টস"
+      "name": "SBOBET",
+      "category": "স্পোর্টস"
     },
     {
-      "name": "Ekor",
-      "category": "লটারি ও রেসিং"
+      "name": "9Wickets",
+      "category": "স্পোর্টস"
     },
     {
-      "name": "Gogoli",
-      "category": "লটারি ও রেসিং"
+      "name": "BTI",
+      "category": "স্পোর্টস"
     }
   ],
-  "providersSource": "30 providers verified live on kk8official.com/my/ ('Play <name>' alts) and each one's category read off KK8's own provider-card label, 2026-09-27. 28 listed; SV388 and RCB988 omitted deliberately (cockfighting betting). Card art self-hosted from KK8's CDN with client approval, re-encoded to WebP q0.7 at 280px.",
+  "providersSource": "17-provider Bangladesh line-up supplied by the client (KK8) in the UAT sheet, 2026-10-18 — replaces the 30 read off kk8official.com/my/ on 2026-09-27. Cross-checked against KK8's own Bangladesh page kk8bdbest.com/seo-contents/seo-home-bd.html (names Lucky365, Pragmatic Play, PG Soft, JILI; also Monkey King, which the client's list omits). Card art self-hosted from KK8's CDN; Playtech, PG Soft, Playtech Live, 9Wickets and BTI have no card art yet and render as text cards. SV388 and RCB988 stay excluded (cockfighting).",
   "productCategories": [
     {
       "id": "slots",
@@ -185,21 +155,6 @@
       "id": "sports",
       "name": "Sports",
       "nameBn": "স্পোর্টস বেটিং"
-    },
-    {
-      "id": "lottery",
-      "name": "Lottery",
-      "nameBn": "লটারি"
-    },
-    {
-      "id": "racing",
-      "name": "Racing",
-      "nameBn": "রেসিং"
-    },
-    {
-      "id": "minigames",
-      "name": "Mini Games",
-      "nameBn": "মিনি গেমস"
     }
   ],
   "social": {
@@ -215,7 +170,7 @@
     "descEn": "Bangladesh's emotional-support and crisis helpline"
   },
   "minAge": 18,
-  "lastVerified": "2026-09-27",
+  "lastVerified": "2026-10-18",
   "siteKey": "seo",
   "role": "commercial",
   "domain": "kk8bd.site",
@@ -265,40 +220,57 @@
       "img": "/assets/img/games/game-pinata-wins.webp",
       "w": 382,
       "h": 464
-    },
-    {
-      "name": "Sugar Teddy x1000",
-      "provider": "BNG",
-      "img": "/assets/img/games/game-sugar-teddy-x1000.webp",
-      "w": 382,
-      "h": 464
     }
   ],
-  "featuredGamesSource": "KK8 'Hot Games' rail, kk8official.com/my/, present on both 2026-09-24 and 2026-09-27; provider attribution as the operator lists it. Card art self-hosted with client approval.",
+  "featuredGamesSource": "KK8 'Hot Games' rail, kk8official.com/my/, present on both 2026-09-24 and 2026-09-27; provider attribution as the operator lists it. Card art self-hosted with client approval. Sugar Teddy x1000 (BNG) dropped 2026-10-18 — BNG is not in the Bangladesh provider line-up.",
   "heroBanners": [
     {
-      "src": "/assets/img/banners/hero-ambassador-owodog.webp",
+      "file": "hero-welcome-300",
       "w": 2000,
       "h": 352,
-      "alt": "KK8-এর নতুন ব্র্যান্ড অ্যাম্বাসেডর Owodog-এর ব্যানার",
-      "altEn": "Banner for KK8's new brand ambassador Owodog"
+      "mw": 590,
+      "mh": 240,
+      "alt": "KK8 বাংলাদেশ — ৩০০% স্লট ওয়েলকাম বোনাসের ব্যানার",
+      "altEn": "KK8 Bangladesh — 300% Slots Welcome Bonus banner"
     },
     {
-      "src": "/assets/img/banners/hero-bwf-sponsor.webp",
+      "file": "hero-free-188",
       "w": 2000,
       "h": 352,
-      "alt": "BWF ওয়ার্ল্ড ট্যুর ২০২৫–২০২৬-এ KK8-এর অফিসিয়াল স্পনসরশিপের ব্যানার",
-      "altEn": "KK8 banner: official sponsor of the BWF World Tour 2025–2026"
+      "mw": 590,
+      "mh": 240,
+      "alt": "KK8-এ রেজিস্ট্রেশন করলেই ফ্রি ১৮৮ টাকা বোনাসের ব্যানার",
+      "altEn": "KK8 free BDT 188 Registration Bonus banner"
     },
     {
-      "src": "/assets/img/banners/hero-tottenham-sponsor.webp",
+      "file": "hero-rebate-2",
       "w": 2000,
       "h": 352,
-      "alt": "টটেনহাম হটস্পার-এর অফিসিয়াল এশিয়ান স্পনসর হিসেবে KK8-এর ব্যানার",
-      "altEn": "KK8 banner: official Asian sponsor of Tottenham Hotspur"
+      "mw": 590,
+      "mh": 240,
+      "alt": "KK8 দৈনিক ২% রিবেটের ব্যানার",
+      "altEn": "KK8 Daily Rebate 2% banner"
+    },
+    {
+      "file": "hero-usdt-topup",
+      "w": 2000,
+      "h": 352,
+      "mw": 590,
+      "mh": 240,
+      "alt": "KK8-এ USDT টপ-আপ এখন উপলব্ধ — ব্যানার",
+      "altEn": "KK8 banner: USDT top-up available now"
+    },
+    {
+      "file": "hero-ambassador-sabila",
+      "w": 2000,
+      "h": 352,
+      "mw": 590,
+      "mh": 240,
+      "alt": "KK8-এর নতুন ব্র্যান্ড অ্যাম্বাসেডর সাবিলা নূর-এর ব্যানার",
+      "altEn": "Banner for KK8's new brand ambassador Sabila Nur"
     }
   ],
-  "heroBannersNote": "Client-supplied KK8 creative, 2026-09-27. English copy is baked into these five images; the page's H1 and body carry the Bengali and the SEO signal. Sponsorship and ambassador claims are KK8's own creative and are not repeated as fact in body copy.",
+  "heroBannersNote": "Client-supplied KK8 creative, 2026-10-18 (UAT 'Replace banner with attached visuals'), replacing the Owodog/BWF/Tottenham set. Separate desktop (3840x675 → 2000x352) and mobile (590x240) art, each in English and Bengali; re-encoded to WebP. The 300%, BDT 188 and 2% offers match KK8's own BD page. The ambassador claim is KK8's own creative and is not repeated as fact in body copy.",
   "categoryBanners": {
     "slots": {
       "src": "/assets/img/banners/cat-slots.jpg",
@@ -332,13 +304,8 @@
     {
       "id": "slots",
       "labelBn": "স্লট",
+      "labelEn": "Slots",
       "providers": [
-        {
-          "name": "Pragmatic Play",
-          "img": "/assets/img/providers/provider-pragmatic-play.webp",
-          "w": 280,
-          "h": 359
-        },
         {
           "name": "Lucky365",
           "img": "/assets/img/providers/provider-lucky365.webp",
@@ -352,32 +319,14 @@
           "h": 359
         },
         {
+          "name": "Pragmatic Play",
+          "img": "/assets/img/providers/provider-pragmatic-play.webp",
+          "w": 280,
+          "h": 359
+        },
+        {
           "name": "JDB",
           "img": "/assets/img/providers/provider-jdb.webp",
-          "w": 280,
-          "h": 359
-        },
-        {
-          "name": "Monkey King",
-          "img": "/assets/img/providers/provider-monkey-king.webp",
-          "w": 280,
-          "h": 359
-        },
-        {
-          "name": "Microslot",
-          "img": "/assets/img/providers/provider-microslot.webp",
-          "w": 280,
-          "h": 359
-        },
-        {
-          "name": "NextSpin",
-          "img": "/assets/img/providers/provider-nextspin.webp",
-          "w": 280,
-          "h": 359
-        },
-        {
-          "name": "BNG",
-          "img": "/assets/img/providers/provider-bng.webp",
           "w": 280,
           "h": 359
         },
@@ -388,75 +337,33 @@
           "h": 359
         },
         {
-          "name": "CQ9",
-          "img": "/assets/img/providers/provider-cq9.webp",
-          "w": 280,
-          "h": 359
+          "name": "Playtech"
         },
         {
-          "name": "Red Tiger",
-          "img": "/assets/img/providers/provider-red-tiger.webp",
-          "w": 280,
-          "h": 359
-        },
-        {
-          "name": "RSG",
-          "img": "/assets/img/providers/provider-rsg.webp",
-          "w": 280,
-          "h": 359
-        },
-        {
-          "name": "YGR",
-          "img": "/assets/img/providers/provider-ygr.webp",
-          "w": 280,
-          "h": 359
-        },
-        {
-          "name": "Mega888",
-          "img": "/assets/img/providers/provider-mega88.webp",
-          "w": 280,
-          "h": 359
+          "name": "PG Soft"
         },
         {
           "name": "King Midas",
           "img": "/assets/img/providers/provider-king-midas.webp",
           "w": 280,
           "h": 359
-        },
-        {
-          "name": "AskMeSlot",
-          "img": "/assets/img/providers/provider-ams.webp",
-          "w": 280,
-          "h": 359
-        },
-        {
-          "name": "Pragmatic Play Pop",
-          "img": "/assets/img/providers/provider-pragmatic-play-pop.webp",
-          "w": 280,
-          "h": 359
         }
-      ],
-      "labelEn": "Slots"
+      ]
     },
     {
       "id": "live",
       "labelBn": "লাইভ ক্যাসিনো",
+      "labelEn": "Live Casino",
       "providers": [
         {
-          "name": "Evolution",
-          "img": "/assets/img/providers/provider-evolution.webp",
-          "w": 280,
-          "h": 359
-        },
-        {
-          "name": "AE Sexy",
+          "name": "Sexy Gaming",
           "img": "/assets/img/providers/provider-ae-sexy.webp",
           "w": 280,
           "h": 359
         },
         {
-          "name": "Pragmatic Play Live",
-          "img": "/assets/img/providers/provider-pragmatic-play-live.webp",
+          "name": "Hot Road",
+          "img": "/assets/img/providers/provider-hot-road.webp",
           "w": 280,
           "h": 359
         },
@@ -467,30 +374,21 @@
           "h": 359
         },
         {
-          "name": "Hot Road",
-          "img": "/assets/img/providers/provider-hot-road.webp",
+          "name": "Playtech Live"
+        },
+        {
+          "name": "Evolution",
+          "img": "/assets/img/providers/provider-evolution.webp",
           "w": 280,
           "h": 359
         }
-      ],
-      "labelEn": "Live Casino"
+      ]
     },
     {
       "id": "sports",
-      "labelBn": "স্পোর্টস ও ই-স্পোর্টস",
+      "labelBn": "স্পোর্টস",
+      "labelEn": "Sports",
       "providers": [
-        {
-          "name": "SBOBET",
-          "img": "/assets/img/providers/provider-sbobet.webp",
-          "w": 280,
-          "h": 359
-        },
-        {
-          "name": "MaxBet",
-          "img": "/assets/img/providers/provider-maxbet.webp",
-          "w": 280,
-          "h": 359
-        },
         {
           "name": "CMD368",
           "img": "/assets/img/providers/provider-cmd368.webp",
@@ -498,32 +396,18 @@
           "h": 359
         },
         {
-          "name": "E1 Sport",
-          "img": "/assets/img/providers/provider-e1-sport.webp",
-          "w": 280,
-          "h": 359
-        }
-      ],
-      "labelEn": "Sports & eSports"
-    },
-    {
-      "id": "lotteryRacing",
-      "labelBn": "লটারি ও রেসিং",
-      "providers": [
-        {
-          "name": "Ekor",
-          "img": "/assets/img/providers/provider-ekor.webp",
+          "name": "SBOBET",
+          "img": "/assets/img/providers/provider-sbobet.webp",
           "w": 280,
           "h": 359
         },
         {
-          "name": "Gogoli",
-          "img": "/assets/img/providers/provider-gogoli-track.webp",
-          "w": 280,
-          "h": 359
+          "name": "9Wickets"
+        },
+        {
+          "name": "BTI"
         }
-      ],
-      "labelEn": "Lottery & Racing"
+      ]
     }
   ],
   "providersExcluded": {
@@ -548,5 +432,9 @@
   },
   "taglineEn": "The official KK8 brand site for Bangladesh",
   "sisterSiteNameEn": "KK8 Review & Trust Hub",
-  "sisterSiteEn": "https://kk8bd.news/en/"
+  "sisterSiteEn": "https://kk8bd.news/en/",
+  "productCategoriesNote": "Bangladesh platform: slots, live casino, sports. KK8's own BD page (kk8bdbest.com/seo-contents/seo-home-bd.html, read 2026-10-18) says lottery is 'coming soon'; the client confirmed in UAT that BD has no lottery yet. Racing removed at the client's request.",
+  "promotionsSource": "kk8bdbest.com/seo-contents/seo-home-bd.html — KK8's own Bangladesh SEO copy served by the money site, read 2026-10-18: 300% Welcome Bonus up to BDT 30,000; BDT 188 free credit for new members; reloads 50% slot / 10% live / 50% sports; daily check-in up to BDT 7,777; daily rebates 2% slot / 0.8% live casino / 0.8% sportsbook.",
+  "liveChat": "https://direct.lc.chat/19246974/",
+  "liveChatNote": "KK8 customer-service live chat, supplied by the client in the UAT sheet 2026-10-18 for every 'contact support' link."
 }
