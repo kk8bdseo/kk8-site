@@ -139,7 +139,7 @@
       "category": "স্পোর্টস"
     }
   ],
-  "providersSource": "17-provider Bangladesh line-up supplied by the client (KK8) in the UAT sheet, 2026-10-18 — replaces the 30 read off kk8official.com/my/ on 2026-09-27. Cross-checked against KK8's own Bangladesh page kk8bdbest.com/seo-contents/seo-home-bd.html (names Lucky365, Pragmatic Play, PG Soft, JILI; also Monkey King, which the client's list omits). Card art self-hosted from KK8's CDN; Playtech, PG Soft, Playtech Live, 9Wickets and BTI have no card art yet and render as text cards. SV388 and RCB988 stay excluded (cockfighting).",
+  "providersSource": "17-provider Bangladesh line-up: client UAT sheet 2026-10-18, confirmed against the provider rail on KK8's Bangladesh demo site prekk8.com/bd/ on 2026-10-19 (client: 'the providers list may reference the prekk8 demo site'). Card art for all 17 self-hosted from that rail (platforms.syncda.com), re-encoded to WebP q70 at 280x359. KK8's own BD info text also names Monkey King, which the rail does not carry — asked the client. SV388 and RCB988 stay excluded (cockfighting).",
   "productCategories": [
     {
       "id": "slots",
@@ -170,7 +170,7 @@
     "descEn": "Bangladesh's emotional-support and crisis helpline"
   },
   "minAge": 18,
-  "lastVerified": "2026-10-18",
+  "lastVerified": "2026-10-19",
   "siteKey": "seo",
   "role": "commercial",
   "domain": "kk8bd.site",
@@ -187,42 +187,49 @@
   "ogImage": "/assets/img/og-image.png",
   "featuredGames": [
     {
-      "name": "Gates of Olympus Super Scatter",
-      "provider": "Pragmatic Play",
-      "img": "/assets/img/games/game-gates-of-olympus-super-scatter.webp",
-      "w": 382,
-      "h": 464
-    },
-    {
-      "name": "Fury of Anubis",
-      "provider": "Pragmatic Play",
-      "img": "/assets/img/games/game-fury-of-anubis.webp",
-      "w": 382,
-      "h": 464
-    },
-    {
-      "name": "Monkey King3",
-      "provider": "Lucky365",
-      "img": "/assets/img/games/game-monkey-king3.webp",
-      "w": 382,
-      "h": 464
-    },
-    {
-      "name": "MahjongComing",
-      "provider": "Lucky365",
-      "img": "/assets/img/games/game-mahjongcoming.webp",
-      "w": 382,
-      "h": 464
-    },
-    {
       "name": "Pinata Wins",
       "provider": "Lucky365",
       "img": "/assets/img/games/game-pinata-wins.webp",
       "w": 382,
       "h": 464
+    },
+    {
+      "name": "Super Ace Plus",
+      "provider": "Lucky365",
+      "img": "/assets/img/games/game-super-ace-plus.webp",
+      "w": 382,
+      "h": 464
+    },
+    {
+      "name": "Fortune Garuda 500",
+      "provider": "JILI",
+      "img": "/assets/img/games/game-fortune-garuda-500.webp",
+      "w": 382,
+      "h": 464
+    },
+    {
+      "name": "Sugar Rush",
+      "provider": "Pragmatic Play",
+      "img": "/assets/img/games/game-sugar-rush.webp",
+      "w": 382,
+      "h": 464
+    },
+    {
+      "name": "DJ Boom Boom",
+      "provider": "FaChai",
+      "img": "/assets/img/games/game-dj-boom-boom.webp",
+      "w": 382,
+      "h": 464
+    },
+    {
+      "name": "Anubis Wrath",
+      "provider": "PG Soft",
+      "img": "/assets/img/games/game-anubis-wrath.webp",
+      "w": 382,
+      "h": 464
     }
   ],
-  "featuredGamesSource": "KK8 'Hot Games' rail, kk8official.com/my/, present on both 2026-09-24 and 2026-09-27; provider attribution as the operator lists it. Card art self-hosted with client approval. Sugar Teddy x1000 (BNG) dropped 2026-10-18 — BNG is not in the Bangladesh provider line-up.",
+  "featuredGamesSource": "KK8 'Hot Games' rail on the Bangladesh demo site prekk8.com/bd/, 2026-10-19 (Lucky365 first, as the client asked); provider attribution as the operator lists it. Card art self-hosted from KK8's CDN with client approval.",
   "heroBanners": [
     {
       "file": "hero-welcome-300",
@@ -337,10 +344,16 @@
           "h": 359
         },
         {
-          "name": "Playtech"
+          "name": "Playtech",
+          "img": "/assets/img/providers/provider-playtech.webp",
+          "w": 280,
+          "h": 359
         },
         {
-          "name": "PG Soft"
+          "name": "PG Soft",
+          "img": "/assets/img/providers/provider-pg-soft.webp",
+          "w": 280,
+          "h": 359
         },
         {
           "name": "King Midas",
@@ -357,7 +370,7 @@
       "providers": [
         {
           "name": "Sexy Gaming",
-          "img": "/assets/img/providers/provider-ae-sexy.webp",
+          "img": "/assets/img/providers/provider-sexy-gaming.webp",
           "w": 280,
           "h": 359
         },
@@ -374,7 +387,10 @@
           "h": 359
         },
         {
-          "name": "Playtech Live"
+          "name": "Playtech Live",
+          "img": "/assets/img/providers/provider-playtech-live.webp",
+          "w": 280,
+          "h": 359
         },
         {
           "name": "Evolution",
@@ -402,10 +418,16 @@
           "h": 359
         },
         {
-          "name": "9Wickets"
+          "name": "9Wickets",
+          "img": "/assets/img/providers/provider-9wickets.webp",
+          "w": 280,
+          "h": 359
         },
         {
-          "name": "BTI"
+          "name": "BTI",
+          "img": "/assets/img/providers/provider-bti.webp",
+          "w": 280,
+          "h": 359
         }
       ]
     }
