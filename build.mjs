@@ -41,9 +41,9 @@ const tr = (obj, key, lang = LANG) => obj?.[key + (lang === 'bn' ? 'Bn' : 'En')]
 /** Interface strings the build itself writes (everything else lives in partials/pages). */
 const UI = {
   bn: { home: 'হোম', provider: 'প্রোভাইডার', slotGame: (p) => `${p}-এর স্লট গেম`,
-        promoEyebrow: 'প্রোমোশন', promoTitle: 'KK8 অফার ও খবর', allPromos: 'সব প্রোমোশন',
+        promoEyebrow: 'প্রমোশন', promoTitle: 'KK8 অফার ও খবর', allPromos: 'সব প্রমোশন',
         prev: 'আগের ব্যানার', next: 'পরের ব্যানার', banner: 'ব্যানার', language: 'ভাষা', country: 'বাংলাদেশ',
-        nav: ['হোম', 'স্লট', 'লাইভ ক্যাসিনো', 'স্পোর্টস', 'প্রোমোশন', 'অ্যাপ', 'ডিপোজিট', 'FAQ'] },
+        nav: ['হোম', 'স্লট', 'লাইভ ক্যাসিনো', 'স্পোর্টস', 'প্রমোশন', 'অ্যাপ', 'ডিপোজিট', 'সাধারণ প্রশ্নোত্তর'] },
   en: { home: 'Home', provider: 'provider', slotGame: (p) => `slot game by ${p}`,
         promoEyebrow: 'Promotions', promoTitle: 'KK8 offers and news', allPromos: 'All promotions',
         prev: 'Previous banner', next: 'Next banner', banner: 'Banner', language: 'Language', country: 'Bangladesh',
@@ -550,8 +550,11 @@ for (const { page, html, out, lang } of built) {
   if (h1s.length !== 1) fail(out, 1, `expected 1 <h1>, found ${h1s.length}`);
   else if (!/KK8/i.test(h1s[0])) fail(out, 1, 'h1 does not contain the brand token "KK8"');
 
-  // 1b — the Latin primary keyword must appear in the page (BD players type Latin)
-  if (!text.toLowerCase().includes(page.primaryKeyword.toLowerCase()))
+  // 1b — the Latin primary keyword must appear in the English twin (BD players type Latin).
+  // Bengali pages follow the client's Bengali translation (UAT 2026-11), which renders query
+  // phrases in Bengali ("KK8 বোনাস", not "KK8 bonus"); they carry the brand via the h1 check
+  // above, and hreflang pairs them with the English page that holds the Latin keyword.
+  if (lang !== DEFAULT_LANG && !text.toLowerCase().includes(page.primaryKeyword.toLowerCase()))
     fail(out, 1, `Latin primary keyword "${page.primaryKeyword}" absent from page text`);
 
   // 2 — title + meta present, unique, geo-signalled
